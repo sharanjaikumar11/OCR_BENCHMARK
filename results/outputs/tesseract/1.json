@@ -1,0 +1,105 @@
+{
+  "image": "1.png",
+  "model": "tesseract",
+  "seconds": 0.223,
+  "error": null,
+  "lines": [
+    {
+      "text": "FOOD BILL",
+      "conf": 0.955
+    },
+    {
+      "text": "Invoice #: 1304",
+      "conf": 0.9166666666666666
+    },
+    {
+      "text": "Date 24/04/2024",
+      "conf": 0.955
+    },
+    {
+      "text": "DESCRIPTION QTY RATE AMOUNT",
+      "conf": 0.9475
+    },
+    {
+      "text": "Paneer Butter Masala 1 2180.00 2180.00",
+      "conf": 0.8666666666666667
+    },
+    {
+      "text": "Veg Biryani 1 2150.00 %150.00",
+      "conf": 0.692
+    },
+    {
+      "text": "Tandoori Roti 3 220.00 260.00",
+      "conf": 0.6559999999999999
+    },
+    {
+      "text": "Gulab Jamun 2 100.00 100.00",
+      "conf": 0.8379999999999999
+    },
+    {
+      "text": "CGST @ 2.5% 212.25",
+      "conf": 0.79
+    },
+    {
+      "text": "SGST @ 2.5% 212.25",
+      "conf": 0.835
+    },
+    {
+      "text": "TOTAL 514.50",
+      "conf": 0.65
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "FOOD BILL",
+      "bill_no": "1304",
+      "date": "2024-04-24",
+      "gstin": null,
+      "total": 514.5
+    },
+    "items": [
+      {
+        "name": "Paneer Butter Masala",
+        "qty": 1.0,
+        "rate": 2180.0,
+        "amount": 2180.0
+      },
+      {
+        "name": "Veg Biryani",
+        "qty": 1.0,
+        "rate": 2150.0,
+        "amount": 150.0
+      },
+      {
+        "name": "Tandoori Roti",
+        "qty": 3.0,
+        "rate": 220.0,
+        "amount": 260.0
+      },
+      {
+        "name": "Gulab Jamun",
+        "qty": 2.0,
+        "rate": 100.0,
+        "amount": 100.0
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 212.25,
+      "sgst": 212.25,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 424.5,
+      "total": 514.5,
+      "total_includes_tax": true,
+      "total_excluding_tax": 90.0
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "image": "2.png",
+  "model": "easyocr",
+  "seconds": 3.755,
+  "error": null,
+  "lines": [
+    {
+      "text": "SRI KRISHNA",
+      "conf": 0.9577461312120636
+    },
+    {
+      "text": "Veg Restaurant",
+      "conf": 0.9790256213326637
+    },
+    {
+      "text": "New Munc ipa | Bldg",
+      "conf": 0.6614529549925797
+    },
+    {
+      "text": "Joban-Putra Compound",
+      "conf": 0.7488905069090863
+    },
+    {
+      "text": "Nana   Chowk , Mumba 400007",
+      "conf": 0.7251489365811099
+    },
+    {
+      "text": "Ph;23867544,23827326",
+      "conf": 0.8672408593271637
+    },
+    {
+      "text": "Tax INVOICE",
+      "conf": 0.5986647157248091
+    },
+    {
+      "text": "Date: PBoy -= COUNTER 01/07/17 Bi]1 No, 3/1/3",
+      "conf": 0.6474308827844847
+    },
+    {
+      "text": "Particulars Oty Rate Amount",
+      "conf": 0.8096914459924501
+    },
+    {
+      "text": "MEDU WADA 65",
+      "conf": 0.8012919681354582
+    },
+    {
+      "text": "Sub Total 65.00",
+      "conf": 0.8708360269195947
+    },
+    {
+      "text": "Dis: @10X 6,00",
+      "conf": 0.7294999228717894
+    },
+    {
+      "text": "Net Tota 59,00",
+      "conf": 0.8023726052619398
+    },
+    {
+      "text": "CGST 09x 5,31",
+      "conf": 0.5398888739063918
+    },
+    {
+      "text": "SGST @9X 5,31",
+      "conf": 0.37024372034529174
+    },
+    {
+      "text": "1/1 Grand Tota] 70",
+      "conf": 0.9432234489960255
+    },
+    {
+      "text": "GST, NQ 27AADFH5037M1Z6 E.e0,E , Thank You (06:56 AM)",
+      "conf": 0.6330631913884843
+    },
+    {
+      "text": "Visit Again",
+      "conf": 0.819746808059416
+    },
+    {
+      "text": "Take Away",
+      "conf": 0.6439896396617057
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SRI KRISHNA",
+      "bill_no": null,
+      "date": "2017-07-01",
+      "gstin": "27AADFH5037M1Z6",
+      "total": 0.0
+    },
+    "items": [
+      {
+        "name": "Veg Restaurant New Munc ipa | Bldg Joban-Putra Compound Nana   Chowk , Mumba",
+        "qty": null,
+        "rate": null,
+        "amount": 400007.0
+      },
+      {
+        "name": "MEDU WADA",
+        "qty": null,
+        "rate": null,
+        "amount": 65.0
+      },
+      {
+        "name": "Net Tota",
+        "qty": null,
+        "rate": 59.0,
+        "amount": 0.0
+      },
+      {
+        "name": "1/1 Grand Tota]",
+        "qty": null,
+        "rate": null,
+        "amount": 70.0
+      }
+    ],
+    "financials": {
+      "subtotal": 65.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 31.0,
+      "sgst": 31.0,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 62.0,
+      "total": 0.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": -62.0
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

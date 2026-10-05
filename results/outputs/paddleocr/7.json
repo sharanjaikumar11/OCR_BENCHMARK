@@ -1,0 +1,149 @@
+{
+  "image": "7.png",
+  "model": "paddleocr",
+  "seconds": 47.973,
+  "error": null,
+  "lines": [
+    {
+      "text": "SHIVSAGAR",
+      "conf": 0.9999784827232361
+    },
+    {
+      "text": "Veg Restaurant",
+      "conf": 0.9999908208847046
+    },
+    {
+      "text": "NH 3,Mumbai Nashik Highway",
+      "conf": 0.999968409538269
+    },
+    {
+      "text": "Opp.Bhoir Pada Bus Stop,Near Padga",
+      "conf": 0.9851434230804443
+    },
+    {
+      "text": "Bhiwandi,Thane",
+      "conf": 0.9999545812606812
+    },
+    {
+      "text": "TAX INVOICE",
+      "conf": 0.9999103546142578
+    },
+    {
+      "text": "Date : 01/07/17 Bill No. ：53",
+      "conf": 0.9307499130566915
+    },
+    {
+      "text": "T.No.:6 W. No. :18",
+      "conf": 0.9750040372212728
+    },
+    {
+      "text": "Particulars Qty Rate Amount",
+      "conf": 0.9999836285909017
+    },
+    {
+      "text": "MISAL PAV 2 85 170",
+      "conf": 0.9999931007623672
+    },
+    {
+      "text": "BATATA WADA 1 70 70",
+      "conf": 0.9999594390392303
+    },
+    {
+      "text": "MEDU WADA 1 80 80",
+      "conf": 0.999933198094368
+    },
+    {
+      "text": "FILTER COFFEE 1 35 35",
+      "conf": 0.9999396651983261
+    },
+    {
+      "text": "Sub Total 355.00",
+      "conf": 0.9998035132884979
+    },
+    {
+      "text": "S.G.S.T @9% 31.95",
+      "conf": 0.9975638687610626
+    },
+    {
+      "text": "C.G.S.T @9% 31.95",
+      "conf": 0.9888639152050018
+    },
+    {
+      "text": "Food Total 418.9",
+      "conf": 0.9994494716326395
+    },
+    {
+      "text": "4/5/1 419",
+      "conf": 0.9999960064888
+    },
+    {
+      "text": "(09:09 AM)",
+      "conf": 0.9998477101325989
+    },
+    {
+      "text": "E.&O.E. THANNK YOU Visit Again",
+      "conf": 0.9990979135036469
+    },
+    {
+      "text": "GST-27AASCS2460H1Z0",
+      "conf": 0.9963464140892029
+    },
+    {
+      "text": "GARDEN",
+      "conf": 0.9999966621398926
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SHIVSAGAR",
+      "bill_no": "53",
+      "date": "2017-07-01",
+      "gstin": "27AASCS2460H1Z0",
+      "total": 419.0
+    },
+    "items": [
+      {
+        "name": "MISAL PAV",
+        "qty": 2.0,
+        "rate": 85.0,
+        "amount": 170.0
+      },
+      {
+        "name": "BATATA WADA",
+        "qty": 1.0,
+        "rate": 70.0,
+        "amount": 70.0
+      },
+      {
+        "name": "MEDU WADA",
+        "qty": 1.0,
+        "rate": 80.0,
+        "amount": 80.0
+      },
+      {
+        "name": "FILTER COFFEE",
+        "qty": 1.0,
+        "rate": 35.0,
+        "amount": 35.0
+      }
+    ],
+    "financials": {
+      "subtotal": 355.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 419.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "image": "6.png",
+  "model": "easyocr",
+  "seconds": 4.347,
+  "error": null,
+  "lines": [
+    {
+      "text": "SUKHDEV VAISHNO DHABA",
+      "conf": 0.9470866377274236
+    },
+    {
+      "text": "GT ROAD, MURTHAL_ SONIPAT HARYANA",
+      "conf": 0.82102331607696
+    },
+    {
+      "text": "PHONE NO .0130-.2475585,860710081L",
+      "conf": 0.262582399000538
+    },
+    {
+      "text": "GSTIN 'O6ABIFS390IKIZJ",
+      "conf": 0.3832432154452208
+    },
+    {
+      "text": "Bill No_ 140 Due \"01/07/2017 00.36.22",
+      "conf": 0.7899601308135246
+    },
+    {
+      "text": "Tablel No Waiter Code:",
+      "conf": 0.969901821784348
+    },
+    {
+      "text": "Qty; Price Value",
+      "conf": 0.6211703981820565
+    },
+    {
+      "text": "3,00 60.00 180.00",
+      "conf": 0.7931912032347871
+    },
+    {
+      "text": "STHA( SEASONAL",
+      "conf": 0.4178891166334981
+    },
+    {
+      "text": "ALOO PYAAZ 1.00 55.00 55.00",
+      "conf": 0.9306818929030551
+    },
+    {
+      "text": "PRANTHA ALU PRANTHA 1.00 55,00 55.00",
+      "conf": 0.7715571010695821
+    },
+    {
+      "text": "DAL MAKHNI 1.00 150.0 150.00",
+      "conf": 0.8917142540729016
+    },
+    {
+      "text": "SWEET LASSI 2,00 60.00 120,00",
+      "conf": 0.8586132342400679
+    },
+    {
+      "text": "KINLEY WATER 1.00 22.10 22.10",
+      "conf": 0.8302922546022844
+    },
+    {
+      "text": "PLAIN ROTI 1,00 18.00 18.00",
+      "conf": 0.9656219491264347
+    },
+    {
+      "text": "1.00 35.00 35,00",
+      "conf": 0.8574969298437237
+    },
+    {
+      "text": "KLLLAD CHAI 635.10",
+      "conf": 0.6938208473244849
+    },
+    {
+      "text": "SLB TOTAL",
+      "conf": 0.6573624259003593
+    },
+    {
+      "text": "on 635.10 57.16",
+      "conf": 0.6951854415635539
+    },
+    {
+      "text": "Add $ GST(9 0009) 635.10 57.16",
+      "conf": 0.6009659242227641
+    },
+    {
+      "text": "Add € GST(9.0008 0) on 749.00",
+      "conf": 0.6762912924841673
+    },
+    {
+      "text": "Amounl Incl of All Taxes",
+      "conf": 0.5239005509803574
+    },
+    {
+      "text": "Ceshuer : mohil E&0E",
+      "conf": 0.6653186892699419
+    },
+    {
+      "text": "Thank you for your visit",
+      "conf": 0.662556970846346
+    },
+    {
+      "text": "Have nice day",
+      "conf": 0.8956097041469189
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SUKHDEV VAISHNO DHABA",
+      "bill_no": null,
+      "date": "2017-07-01",
+      "gstin": "06ABIFS3901KIZJ",
+      "total": 749.0
+    },
+    "items": [
+      {
+        "name": "STHA( SEASONAL ALOO PYAAZ",
+        "qty": 1.0,
+        "rate": 55.0,
+        "amount": 55.0
+      },
+      {
+        "name": "PRANTHA ALU PRANTHA 1.00 55,",
+        "qty": 0.0,
+        "rate": null,
+        "amount": 55.0
+      },
+      {
+        "name": "DAL MAKHNI",
+        "qty": 1.0,
+        "rate": 150.0,
+        "amount": 150.0
+      },
+      {
+        "name": "SWEET LASSI",
+        "qty": 2.0,
+        "rate": 120.0,
+        "amount": 0.0
+      },
+      {
+        "name": "KINLEY WATER",
+        "qty": 1.0,
+        "rate": 22.1,
+        "amount": 22.1
+      },
+      {
+        "name": "PLAIN ROTI 1,00",
+        "qty": 18.0,
+        "rate": null,
+        "amount": 18.0
+      },
+      {
+        "name": "KLLLAD CHAI",
+        "qty": null,
+        "rate": null,
+        "amount": 635.1
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 749.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": false
+    }
+  }
+}

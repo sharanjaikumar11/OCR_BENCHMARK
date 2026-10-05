@@ -1,0 +1,159 @@
+{
+  "image": "8.png",
+  "model": "tesseract",
+  "seconds": 0.329,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL SRI JANAKIRAM",
+      "conf": 0.82
+    },
+    {
+      "text": "49,TAMILSANGAM ROAD,",
+      "conf": 0.87
+    },
+    {
+      "text": "MADURAI-1-PH0452-2342744",
+      "conf": 0.18
+    },
+    {
+      "text": "GST 33AAOFH3134)12E",
+      "conf": 0.32
+    },
+    {
+      "text": "suino: C9 29/08/23 01:26 PM",
+      "conf": 0.48200000000000004
+    },
+    {
+      "text": "Waiter THANGAPAND! HALL 2",
+      "conf": 0.765
+    },
+    {
+      "text": "Table: 12A Person: 4",
+      "conf": 0.8375
+    },
+    {
+      "text": "KOI Nos: 46,66",
+      "conf": 0.7533333333333334
+    },
+    {
+      "text": "PARTICULARS RATE QTY AMOUNT",
+      "conf": 0.67
+    },
+    {
+      "text": "MEALS 120.00 2 240.00",
+      "conf": 0.62
+    },
+    {
+      "text": ">LAIN BRIYANI 180.00 1 180.00",
+      "conf": 0.732
+    },
+    {
+      "text": "J CHUKKA 180.00 2 360.00",
+      "conf": 0.7020000000000001
+    },
+    {
+      "text": "HiGKEN 65 90.00 1 90.00",
+      "conf": 0.734
+    },
+    {
+      "text": "MUTTEN COLA 50.00 __-3_ 150.00",
+      "conf": 0.304
+    },
+    {
+      "text": "___",
+      "conf": 0.08
+    },
+    {
+      "text": "CASH Sub Total : 1,020.00",
+      "conf": 0.9400000000000001
+    },
+    {
+      "text": "Round Off : 0.01",
+      "conf": 0.9125
+    },
+    {
+      "text": "\"Tax Amt] CGST “]CGST Amt SGST %] sera",
+      "conf": 0.42625
+    },
+    {
+      "text": "Tg7i43[ 2.5[ 34.20] 2s] 24.29",
+      "conf": 0.276
+    },
+    {
+      "text": "THANK YOU......VISIT AGAIN",
+      "conf": 0.88
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL SRI JANAKIRAM",
+      "bill_no": null,
+      "date": "2023-08-29",
+      "gstin": null,
+      "total": 1020.0
+    },
+    "items": [
+      {
+        "name": "Waiter THANGAPAND! HALL",
+        "qty": null,
+        "rate": null,
+        "amount": 2.0
+      },
+      {
+        "name": "MEALS",
+        "qty": 2.0,
+        "rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "name": ">LAIN BRIYANI",
+        "qty": 1.0,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "J CHUKKA",
+        "qty": 2.0,
+        "rate": 180.0,
+        "amount": 360.0
+      },
+      {
+        "name": "HiGKEN 65",
+        "qty": 1.0,
+        "rate": 90.0,
+        "amount": 90.0
+      },
+      {
+        "name": "MUTTEN COLA",
+        "qty": 50.0,
+        "rate": null,
+        "amount": 150.0
+      },
+      {
+        "name": "Tg7i43[",
+        "qty": 2.5,
+        "rate": 34.2,
+        "amount": 24.29
+      }
+    ],
+    "financials": {
+      "subtotal": 1020.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": 0.01,
+      "tax_total": null,
+      "total": 1020.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

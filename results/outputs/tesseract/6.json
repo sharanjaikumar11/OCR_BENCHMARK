@@ -1,0 +1,231 @@
+{
+  "image": "6.png",
+  "model": "tesseract",
+  "seconds": 0.358,
+  "error": null,
+  "lines": [
+    {
+      "text": "SUKHDEV VAISHNO DHABA",
+      "conf": 0.92
+    },
+    {
+      "text": "SONIPAT,HARY ANA",
+      "conf": 0.43
+    },
+    {
+      "text": "G-T. ROAD, MURTHAL,",
+      "conf": 0.6666666666666666
+    },
+    {
+      "text": "PHONE NO :0130-2475585, 8607100811",
+      "conf": 0.8825000000000001
+    },
+    {
+      "text": "GSTIN :06ABIFS3901K 123",
+      "conf": 0.58
+    },
+    {
+      "text": "Date 01/07/2017 00:36:22",
+      "conf": 0.7566666666666667
+    },
+    {
+      "text": "Bill No.: 140",
+      "conf": 0.7666666666666666
+    },
+    {
+      "text": "Tablel No.: 10 Waiter Code:",
+      "conf": 0.764
+    },
+    {
+      "text": "‘Oly peice” Vale",
+      "conf": 0.3433333333333333
+    },
+    {
+      "text": "soeaiame",
+      "conf": 0.0
+    },
+    {
+      "text": "3.00 60.00 180.00",
+      "conf": 0.6766666666666666
+    },
+    {
+      "text": "ETHA(SEASONAL",
+      "conf": 0.06
+    },
+    {
+      "text": "PYAAZ 1.00 55.00 $5.00",
+      "conf": 0.6625
+    },
+    {
+      "text": "IRANTHA. 100 $5.00 55.",
+      "conf": 0.59
+    },
+    {
+      "text": "ALU PRANTHA",
+      "conf": 0.87
+    },
+    {
+      "text": "1.00 150.0 150",
+      "conf": 0.7233333333333333
+    },
+    {
+      "text": "DAL MAKHNI",
+      "conf": 0.91
+    },
+    {
+      "text": ". 2,00 60.00 12",
+      "conf": 0.5775
+    },
+    {
+      "text": "SWEET LASSI",
+      "conf": 0.92
+    },
+    {
+      "text": "100 2210 22.1¢",
+      "conf": 0.42
+    },
+    {
+      "text": "KINLEY WATER",
+      "conf": 0.9450000000000001
+    },
+    {
+      "text": "1,00 1800 18.01",
+      "conf": 0.7166666666666667
+    },
+    {
+      "text": "PLAIN ROTI",
+      "conf": 0.7
+    },
+    {
+      "text": "100 35.00 35.0",
+      "conf": 0.7666666666666666
+    },
+    {
+      "text": "KULLAD CHA!",
+      "conf": 0.78
+    },
+    {
+      "text": "635.10",
+      "conf": 0.96
+    },
+    {
+      "text": "SUB TOTAL",
+      "conf": 0.71
+    },
+    {
+      "text": "GST(9.000% 635.10 57.16",
+      "conf": 0.8366666666666666
+    },
+    {
+      "text": "Add $ 635:10 57.16",
+      "conf": 0.65
+    },
+    {
+      "text": "‘Add C GST(9.000%6) on",
+      "conf": 0.73
+    },
+    {
+      "text": "Incl of All Taxes 749.00",
+      "conf": 0.9339999999999999
+    },
+    {
+      "text": "Amount",
+      "conf": 0.95
+    },
+    {
+      "text": "E&OE",
+      "conf": 0.95
+    },
+    {
+      "text": "ashier : mohit",
+      "conf": 0.6333333333333333
+    },
+    {
+      "text": "fof Your Visit",
+      "conf": 0.7200000000000001
+    },
+    {
+      "text": "hank you",
+      "conf": 0.71
+    },
+    {
+      "text": "anice day",
+      "conf": 0.9099999999999999
+    },
+    {
+      "text": "Have",
+      "conf": 0.86
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SUKHDEV VAISHNO DHABA",
+      "bill_no": "140",
+      "date": "2017-07-01",
+      "gstin": "06ABIFS3901K1Z3",
+      "total": 8607100811.0
+    },
+    "items": [
+      {
+        "name": "‘Oly peice” Vale soeaiame",
+        "qty": 3.0,
+        "rate": 60.0,
+        "amount": 180.0
+      },
+      {
+        "name": "ETHA(SEASONAL PYAAZ",
+        "qty": 1.0,
+        "rate": 55.0,
+        "amount": 5.0
+      },
+      {
+        "name": "IRANTHA. 100 $5.00 55. ALU PRANTHA",
+        "qty": 1.0,
+        "rate": 150.0,
+        "amount": 150.0
+      },
+      {
+        "name": "DAL MAKHNI",
+        "qty": 2.0,
+        "rate": 60.0,
+        "amount": 12.0
+      },
+      {
+        "name": "SWEET LASSI",
+        "qty": 100.0,
+        "rate": 1800.0,
+        "amount": 18.01
+      },
+      {
+        "name": "PLAIN ROTI 100",
+        "qty": 35.0,
+        "rate": null,
+        "amount": 35.0
+      },
+      {
+        "name": "KULLAD CHA!",
+        "qty": null,
+        "rate": null,
+        "amount": 635.1
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 6.0,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 6.0,
+      "total": 8607100811.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 8607100805.0
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

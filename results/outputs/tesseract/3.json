@@ -1,0 +1,117 @@
+{
+  "image": "3.png",
+  "model": "tesseract",
+  "seconds": 0.24,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL CITY LITE",
+      "conf": 0.9433333333333334
+    },
+    {
+      "text": "Malad west Mumbai Maharashtra",
+      "conf": 0.96
+    },
+    {
+      "text": "Name: RAINISH UPADHYAY Invoice No: 7723",
+      "conf": 0.8066666666666666
+    },
+    {
+      "text": "Table: #98 Date: 12 Jul 2023,",
+      "conf": 0.9183333333333333
+    },
+    {
+      "text": "Item Price ay Total",
+      "conf": 0.9025
+    },
+    {
+      "text": "Panner masala %180 o1 180",
+      "conf": 0.616
+    },
+    {
+      "text": "Butter Naan X50 03 150",
+      "conf": 0.67
+    },
+    {
+      "text": "Sub-Total: % 329.5",
+      "conf": 0.8433333333333334
+    },
+    {
+      "text": "cesT: 25% &",
+      "conf": 0.5433333333333333
+    },
+    {
+      "text": "8.25",
+      "conf": 0.9
+    },
+    {
+      "text": "SGST: 25% &",
+      "conf": 0.6699999999999999
+    },
+    {
+      "text": "8.25",
+      "conf": 0.93
+    },
+    {
+      "text": "Mode: Cash Total: 346",
+      "conf": 0.755
+    },
+    {
+      "text": "**SAVE PAPER SAVE NATURE !!",
+      "conf": 0.8240000000000001
+    },
+    {
+      "text": "YOU CAN NOW CALL US ON 1800 226344 (TOLL-",
+      "conf": 0.9522222222222223
+    },
+    {
+      "text": "FREE) FOR QUERIES/COMPLAINTS",
+      "conf": 0.9366666666666666
+    },
+    {
+      "text": "Time: 09:08",
+      "conf": 0.96
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL CITY LITE",
+      "bill_no": "7723",
+      "date": "2023-07-12",
+      "gstin": null,
+      "total": 346.0
+    },
+    "items": [
+      {
+        "name": "Panner masala %",
+        "qty": null,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "Butter Naan X50",
+        "qty": 3.0,
+        "rate": null,
+        "amount": 150.0
+      }
+    ],
+    "financials": {
+      "subtotal": 329.5,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": 8.25,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 8.25,
+      "total": 346.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 337.75
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

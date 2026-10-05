@@ -1,0 +1,129 @@
+{
+  "image": "9.png",
+  "model": "easyocr_trocr",
+  "seconds": 164.267,
+  "error": null,
+  "lines": [
+    {
+      "text": "BHAGINI",
+      "conf": null
+    },
+    {
+      "text": "SRIGANDA PALACE",
+      "conf": null
+    },
+    {
+      "text": "SERVICE RD, T K REDDY LAYOUT, ANNALAH REDDY LAYOUT,",
+      "conf": null
+    },
+    {
+      "text": "BANASWADI, BENGALURI, KARNATAKA 560043",
+      "conf": null
+    },
+    {
+      "text": "GST NO 29ADDR8125K122",
+      "conf": null
+    },
+    {
+      "text": "RECEIPT",
+      "conf": null
+    },
+    {
+      "text": "NAME: SIVE SHANKAR INVOICE NO: 7767",
+      "conf": null
+    },
+    {
+      "text": "TABLE: #37 DATE: 16 MAY 2024",
+      "conf": null
+    },
+    {
+      "text": "ITEM PRICE QTY TOTAL",
+      "conf": null
+    },
+    {
+      "text": "MUTTON DIRIVANI R400 R1600",
+      "conf": null
+    },
+    {
+      "text": "TANDORI ROTI R30 R150",
+      "conf": null
+    },
+    {
+      "text": "CHILLY CHICKEN R250 #500",
+      "conf": null
+    },
+    {
+      "text": "CHICKEN PEPPER R250 R750",
+      "conf": null
+    },
+    {
+      "text": "SUB-TOTAL: R 3000",
+      "conf": null
+    },
+    {
+      "text": "CGST: 2.5% R 75",
+      "conf": null
+    },
+    {
+      "text": "SGST: 2.5% R 75",
+      "conf": null
+    },
+    {
+      "text": "MODE: CASH TOTAL:",
+      "conf": null
+    },
+    {
+      "text": "3150",
+      "conf": null
+    },
+    {
+      "text": "**SAVE PAPER SAVE NATURE !!",
+      "conf": null
+    },
+    {
+      "text": "TIME: 21:18",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "BHAGINI",
+      "bill_no": "7767",
+      "date": "2024-05-16",
+      "gstin": null,
+      "total": 3150.0
+    },
+    "items": [
+      {
+        "name": "BHAGINI SRIGANDA PALACE SERVICE RD, T K REDDY LAYOUT, ANNALAH REDDY LAYOUT, BANASWADI, BENGALURI, KARNATAKA",
+        "qty": null,
+        "rate": null,
+        "amount": 560043.0
+      },
+      {
+        "name": "CHILLY CHICKEN R250 #",
+        "qty": null,
+        "rate": null,
+        "amount": 500.0
+      }
+    ],
+    "financials": {
+      "subtotal": 3000.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 75.0,
+      "sgst": 75.0,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 150.0,
+      "total": 3150.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 3000.0
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

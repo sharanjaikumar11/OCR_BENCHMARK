@@ -1,0 +1,37 @@
+{
+  "text": "ANJAPPAR CHETTINAD A/C RESTAURANT\nNo. 191, P.H. Road, Chennai-600006\nBILL NO: AC12606\nTABLE NO: 4\nDate: 22/01/2017 Time: 3:13:01 PM\nCAPTAIN: G S MANI MPR\nITEM RATE QTY AMOUNT\nCHICKEN BIRIYANI 184.00 1 184.00\nANJAPPAR REGULAR 131.00 1 131.00\nANJAPPAR REGULAR 137.00 1 137.00\nMUTTON SUKKA VAR 182.00 1 182.00\nGOBI 65 142.00 1 142.00\nNO OF ITEMS: 5 TOTAL QTY: 5\nSUB TOTAL Rs: 776.00\nVAT(2%) Rs 15.52\nService Tax(6) Rs 46.56\nTOTAL AMOUNT Rs: 838.00",
+  "fields": {
+    "restaurant_name": "ANJAPPAR CHETTINAD A/C RESTAURANT",
+    "bill_no": "AC12606",
+    "date": "22/01/2017",
+    "gstin": "",
+    "total": 838.0
+  },
+  "items": [
+    {
+      "name": "CHICKEN BIRIYANI",
+      "qty": 1,
+      "amount": 184.0
+    },
+    {
+      "name": "ANJAPPAR REGULAR",
+      "qty": 1,
+      "amount": 131.0
+    },
+    {
+      "name": "ANJAPPAR REGULAR",
+      "qty": 1,
+      "amount": 137.0
+    },
+    {
+      "name": "MUTTON SUKKA VAR",
+      "qty": 1,
+      "amount": 182.0
+    },
+    {
+      "name": "GOBI 65",
+      "qty": 1,
+      "amount": 142.0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "image": "10.png",
+  "model": "easyocr",
+  "seconds": 4.079,
+  "error": null,
+  "lines": [
+    {
+      "text": "MNPn Detiimo A  Resinfan",
+      "conf": 0.01092272635369815
+    },
+    {
+      "text": "O",
+      "conf": 0.4005413599246346
+    },
+    {
+      "text": "t",
+      "conf": 0.04239379078172534
+    },
+    {
+      "text": "044-28555267/8767",
+      "conf": 0.13309796862762738
+    },
+    {
+      "text": "Tin mo 3s39is0i51",
+      "conf": 0.052453892014752736
+    },
+    {
+      "text": "JIll *: AC1ZO5",
+      "conf": 0.06773011267545824
+    },
+    {
+      "text": "TAB",
+      "conf": 0.6511028047009038
+    },
+    {
+      "text": "Jate 2/01/2017 TIME 3:1j.0i P",
+      "conf": 0.34429511637306676
+    },
+    {
+      "text": "faptain Vni MR( ) RaITER Elull|",
+      "conf": 0.121902302272608
+    },
+    {
+      "text": "Va(J)",
+      "conf": 0.2469101482226162
+    },
+    {
+      "text": "DINNG HAlL",
+      "conf": 0.12287258865887342
+    },
+    {
+      "text": "[Te4 RATE @Ty Avouni",
+      "conf": 0.4357458605298633
+    },
+    {
+      "text": "CHICKEN BIRIYANI 184. 00 184-00",
+      "conf": 0.5082691418391972
+    },
+    {
+      "text": "Anjapfar REGULAR 131.00 131.00",
+      "conf": 0.6819425486778877
+    },
+    {
+      "text": "Anjapfar RejulaR 137.00 137. 00",
+      "conf": 0.5813932845182234
+    },
+    {
+      "text": "Mutton Sukk4 VAR 1e2.00 182.00",
+      "conf": 0.6731858961915224
+    },
+    {
+      "text": "308[ E5 142.00 142.00",
+      "conf": 0.7115870093487797
+    },
+    {
+      "text": "N 0F ITEMS :5  TOTAL Qty",
+      "conf": 0.22766895798804715
+    },
+    {
+      "text": "SUB  TOTAL Rs: 776. 00",
+      "conf": 0.7341878566329375
+    },
+    {
+      "text": "VAT(ZR )Rs : 15.52",
+      "conf": 0.7446013051067042
+    },
+    {
+      "text": "Service Tax(6)Rs: 46.56",
+      "conf": 0.9028533140388411
+    },
+    {
+      "text": "Total AMouNT As: B36,00",
+      "conf": 0.1235135877270665
+    },
+    {
+      "text": "Thank Youl !! Visit Again!!!!",
+      "conf": 0.712104987685459
+    },
+    {
+      "text": "User  Name:Bi |l",
+      "conf": 0.35472448888800145
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "MNPn Detiimo A  Resinfan",
+      "bill_no": null,
+      "date": "2017-01-02",
+      "gstin": null,
+      "total": 0.0
+    },
+    "items": [
+      {
+        "name": "CHICKEN BIRIYANI",
+        "qty": null,
+        "rate": 184.0,
+        "amount": 0.0
+      },
+      {
+        "name": "Anjapfar REGULAR",
+        "qty": null,
+        "rate": 131.0,
+        "amount": 131.0
+      },
+      {
+        "name": "Anjapfar RejulaR",
+        "qty": 137.0,
+        "rate": 137.0,
+        "amount": 0.0
+      },
+      {
+        "name": "Mutton Sukk4 VAR 1e2.00",
+        "qty": null,
+        "rate": null,
+        "amount": 182.0
+      }
+    ],
+    "financials": {
+      "subtotal": 0.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": 46.56,
+      "vat": 15.52,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 62.08,
+      "total": 0.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": -62.08
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

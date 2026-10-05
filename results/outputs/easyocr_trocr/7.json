@@ -1,0 +1,161 @@
+{
+  "image": "7.png",
+  "model": "easyocr_trocr",
+  "seconds": 148.439,
+  "error": null,
+  "lines": [
+    {
+      "text": "SHIVSAGAR",
+      "conf": null
+    },
+    {
+      "text": "VEG RESTAURANT",
+      "conf": null
+    },
+    {
+      "text": "NH 3,MUMBAI NASHIK HIGHWAY",
+      "conf": null
+    },
+    {
+      "text": "OPP.BHOIR PADA BUS STOP, NEAR PADGA",
+      "conf": null
+    },
+    {
+      "text": "BHIWANDI, THANE",
+      "conf": null
+    },
+    {
+      "text": "TAX INVOICE",
+      "conf": null
+    },
+    {
+      "text": "DATE 01/07/17 BILL NO. 53",
+      "conf": null
+    },
+    {
+      "text": "T.NO. NO. 18",
+      "conf": null
+    },
+    {
+      "text": "PARTICULARS QTY RATE AMOUNT",
+      "conf": null
+    },
+    {
+      "text": "MISAL PAV 85 170",
+      "conf": null
+    },
+    {
+      "text": "BATATA WADA 70",
+      "conf": null
+    },
+    {
+      "text": "MEDU WADA 888 80",
+      "conf": null
+    },
+    {
+      "text": "FILTER COFFEE 35",
+      "conf": null
+    },
+    {
+      "text": "SUB TOTAL 355.00",
+      "conf": null
+    },
+    {
+      "text": "S.G.S. @9% 31.95",
+      "conf": null
+    },
+    {
+      "text": "C.G.S.T @9% 31.95",
+      "conf": null
+    },
+    {
+      "text": "FOOD 418.9",
+      "conf": null
+    },
+    {
+      "text": "4/5/1 TOTAL 419",
+      "conf": null
+    },
+    {
+      "text": "(09:09 AM)",
+      "conf": null
+    },
+    {
+      "text": "E.&0.E. THANK YOU VISIT AGAIN",
+      "conf": null
+    },
+    {
+      "text": "GST-27AASCS2460H1Z0",
+      "conf": null
+    },
+    {
+      "text": "GARDEN",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SHIVSAGAR",
+      "bill_no": "53",
+      "date": "2017-07-01",
+      "gstin": "27AASCS2460H1Z0",
+      "total": 419.0
+    },
+    "items": [
+      {
+        "name": "T.NO. NO",
+        "qty": null,
+        "rate": null,
+        "amount": 18.0
+      },
+      {
+        "name": "MISAL PAV",
+        "qty": null,
+        "rate": 85.0,
+        "amount": 170.0
+      },
+      {
+        "name": "BATATA WADA",
+        "qty": null,
+        "rate": null,
+        "amount": 70.0
+      },
+      {
+        "name": "MEDU WADA",
+        "qty": null,
+        "rate": 888.0,
+        "amount": 80.0
+      },
+      {
+        "name": "FILTER COFFEE",
+        "qty": null,
+        "rate": null,
+        "amount": 35.0
+      },
+      {
+        "name": "FOOD",
+        "qty": null,
+        "rate": null,
+        "amount": 418.9
+      }
+    ],
+    "financials": {
+      "subtotal": 355.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 419.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "text": "HOTEL CITY LITE\nMalad west Mumbai Maharashtra\nRECEIPT\nName: RAJNISH UPADHYAY Invoice No: 7723\nTable: #98 Date: 12 Jul 2023\nItem Price Qty Total\nPanner masala 180 01 180\nButter Naan 50 03 150\nSub-Total: 329.5\nCGST: 2.5% 8.25\nSGST: 2.5% 8.25\nMode: Cash Total: 346",
+  "fields": {
+    "restaurant_name": "HOTEL CITY LITE",
+    "bill_no": "7723",
+    "date": "12/07/2023",
+    "gstin": "",
+    "total": 346.0
+  },
+  "items": [
+    {
+      "name": "Panner masala",
+      "qty": 1,
+      "amount": 180.0
+    },
+    {
+      "name": "Butter Naan",
+      "qty": 3,
+      "amount": 150.0
+    }
+  ]
+}

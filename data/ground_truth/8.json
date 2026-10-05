@@ -1,0 +1,37 @@
+{
+  "text": "HOTEL SRI JANAKIRAM\n49, TAMILSANGAM ROAD, MADURAI-1\nGST 33AAOFH3134J1ZE\nBILL NO: C9 29/08/23 01:26 PM\nWaiter THANGAPANDI HALL 2\nTable: 12A Person: 4\nKOT Nos: 46,66\nPARTICULARS RATE QTY AMOUNT\nMEALS 120.00 2 240.00\nPLAIN BRIYANI 180.00 1 180.00\nMUTTON CHUKKA 180.00 2 360.00\nCHICKEN 65 90.00 1 90.00\nMUTTON COLA 50.00 3 150.00\nCASH Sub Total: 1020.00\nRound Off: -0.01\nNET Rs: 1020.00\nCGST % 2.5 CGST Amt 24.29 SGST % 2.5 SGST Amt 24.29",
+  "fields": {
+    "restaurant_name": "HOTEL SRI JANAKIRAM",
+    "bill_no": "C9",
+    "date": "29/08/23",
+    "gstin": "33AAOFH3134J1ZE",
+    "total": 1020.0
+  },
+  "items": [
+    {
+      "name": "MEALS",
+      "qty": 2,
+      "amount": 240.0
+    },
+    {
+      "name": "PLAIN BRIYANI",
+      "qty": 1,
+      "amount": 180.0
+    },
+    {
+      "name": "MUTTAN CHUKKA",
+      "qty": 2,
+      "amount": 360.0
+    },
+    {
+      "name": "CHICKEN 65",
+      "qty": 1,
+      "amount": 90.0
+    },
+    {
+      "name": "MUTTEN COLA",
+      "qty": 3,
+      "amount": 150.0
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "image": "3.png",
+  "model": "easyocr_trocr",
+  "seconds": 132.172,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL CITY LITE",
+      "conf": null
+    },
+    {
+      "text": "MALAD WEST MUMBAI MAHARASHTRA",
+      "conf": null
+    },
+    {
+      "text": "RECEIPT",
+      "conf": null
+    },
+    {
+      "text": "NAME: RAJNISH UPADHYAY INVOICE NO: 7723",
+      "conf": null
+    },
+    {
+      "text": "TABLE: #98 DATE: 12 JUL 2023",
+      "conf": null
+    },
+    {
+      "text": "ITEM PRICE QTY TOTAL",
+      "conf": null
+    },
+    {
+      "text": "PANNER MASALA R180 01 R180",
+      "conf": null
+    },
+    {
+      "text": "BUTTER NAAN R50 03 R150",
+      "conf": null
+    },
+    {
+      "text": "SUB-TOTAL: R 329.5",
+      "conf": null
+    },
+    {
+      "text": "CGST: 2.5%",
+      "conf": null
+    },
+    {
+      "text": "8.25",
+      "conf": null
+    },
+    {
+      "text": "SGST: 2.5%",
+      "conf": null
+    },
+    {
+      "text": "8.25",
+      "conf": null
+    },
+    {
+      "text": "MODE: CASH TOTAL: R 346",
+      "conf": null
+    },
+    {
+      "text": "**SAVE PAPER SAVE NATURE !!",
+      "conf": null
+    },
+    {
+      "text": "YOU CAN NOW CALL US ON 1800 226344 (TOLL-",
+      "conf": null
+    },
+    {
+      "text": "FREE) FOR QUERIES/COMPLAINTS.",
+      "conf": null
+    },
+    {
+      "text": "TIME: 09:08",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL CITY LITE",
+      "bill_no": "7723",
+      "date": "2023-07-12",
+      "gstin": null,
+      "total": 346.0
+    },
+    "items": [
+      {
+        "name": "PANNER MASALA R180",
+        "qty": null,
+        "rate": null,
+        "amount": 1.0
+      },
+      {
+        "name": "BUTTER NAAN R50",
+        "qty": null,
+        "rate": null,
+        "amount": 3.0
+      }
+    ],
+    "financials": {
+      "subtotal": 329.5,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 8.25,
+      "sgst": 8.25,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 16.5,
+      "total": 346.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 329.5
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

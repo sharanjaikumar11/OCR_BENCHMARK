@@ -1,0 +1,183 @@
+{
+  "image": "5.png",
+  "model": "easyocr",
+  "seconds": 3.844,
+  "error": null,
+  "lines": [
+    {
+      "text": "Bikcrs C4fe",
+      "conf": 0.2642020043773752
+    },
+    {
+      "text": "Jnit No PSP C-12/14",
+      "conf": 0.7816322690993903
+    },
+    {
+      "text": "pund Tleor PaLE spfing Plaza",
+      "conf": 0.42492281898136186
+    },
+    {
+      "text": "06111030675",
+      "conf": 0.9733070363531459
+    },
+    {
+      "text": "MECT3660A9000a",
+      "conf": 0.13759815487928923
+    },
+    {
+      "text": "LCSTET OGAAECTJ6 6 0418J",
+      "conf": 0.23005667613705408
+    },
+    {
+      "text": "Tablc",
+      "conf": 0.40050083212821946
+    },
+    {
+      "text": "Tar Le Numnos",
+      "conf": 0.18512564525523928
+    },
+    {
+      "text": "1402",
+      "conf": 0.8556174635887146
+    },
+    {
+      "text": "#te wird- Hara Thapa",
+      "conf": 0.3081460671653094
+    },
+    {
+      "text": "LAI IEE NIGK",
+      "conf": 0.4574014909595683
+    },
+    {
+      "text": "EHcRala",
+      "conf": 0.010244474042043811
+    },
+    {
+      "text": "IHJ GRILLE",
+      "conf": 0.4104994436803991
+    },
+    {
+      "text": "PTEEAS",
+      "conf": 0.5269786991424988
+    },
+    {
+      "text": "1275",
+      "conf": 0.504058837890625
+    },
+    {
+      "text": "EAc LE RIDEr",
+      "conf": 0.32106243434258164
+    },
+    {
+      "text": "ENDER LAM",
+      "conf": 0.7773738595298509
+    },
+    {
+      "text": "C HOP",
+      "conf": 0.38753330283932796
+    },
+    {
+      "text": "Tot) Qty :",
+      "conf": 0.26049032966981933
+    },
+    {
+      "text": "nrerehae 2149",
+      "conf": 0.5016447265814269
+    },
+    {
+      "text": "@18 240",
+      "conf": 0.8187421198391773
+    },
+    {
+      "text": "S91Vice Chargel1o",
+      "conf": 0.26152808711762854
+    },
+    {
+      "text": "G5I 35",
+      "conf": 0.07546292576249718
+    },
+    {
+      "text": "ZGsT",
+      "conf": 0.10380680114030838
+    },
+    {
+      "text": "SGs",
+      "conf": 0.2782810941564507
+    },
+    {
+      "text": "0ff:",
+      "conf": 0.163884237408638
+    },
+    {
+      "text": "Tetal Invoice Value 2653",
+      "conf": 0.828471731485741
+    },
+    {
+      "text": "SRVC CHRG OPTNL",
+      "conf": 0.9836249360189364
+    },
+    {
+      "text": "Pok ered bY Posist",
+      "conf": 0.6027834006594842
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "Bikcrs C4fe",
+      "bill_no": null,
+      "date": null,
+      "gstin": null,
+      "total": 6111030675.0
+    },
+    "items": [
+      {
+        "name": "pund Tleor PaLE spfing Plaza",
+        "qty": null,
+        "rate": null,
+        "amount": 6111030675.0
+      },
+      {
+        "name": "LCSTET OGAAECTJ6",
+        "qty": 6.0,
+        "rate": null,
+        "amount": 1402.0
+      },
+      {
+        "name": "EHcRala IHJ GRILLE PTEEAS",
+        "qty": null,
+        "rate": null,
+        "amount": 1275.0
+      },
+      {
+        "name": "nrerehae",
+        "qty": null,
+        "rate": null,
+        "amount": 2149.0
+      },
+      {
+        "name": "S91Vice Chargel1o G5I",
+        "qty": null,
+        "rate": null,
+        "amount": 35.0
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 6111030675.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

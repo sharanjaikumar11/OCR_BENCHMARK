@@ -1,0 +1,129 @@
+{
+  "image": "2.png",
+  "model": "paddleocr",
+  "seconds": 35.828,
+  "error": null,
+  "lines": [
+    {
+      "text": "SRI KRISHNA",
+      "conf": 0.9995284676551819
+    },
+    {
+      "text": "Veg Restaurant",
+      "conf": 0.9999898672103882
+    },
+    {
+      "text": "New Muncipal Bldg",
+      "conf": 0.9803879857063293
+    },
+    {
+      "text": "Joban-Putra Compound",
+      "conf": 0.9999874234199524
+    },
+    {
+      "text": "Nana Chowk,Mumbai 400007",
+      "conf": 0.9998210072517395
+    },
+    {
+      "text": "Ph:23867544,23827326",
+      "conf": 0.9999765157699585
+    },
+    {
+      "text": "TAX INVOICE",
+      "conf": 0.9870871901512146
+    },
+    {
+      "text": "Date: 01/07/17 BilT No. : 3/3",
+      "conf": 0.9207464754581451
+    },
+    {
+      "text": "PBoy: COUNTER",
+      "conf": 0.9931955933570862
+    },
+    {
+      "text": "Particulars Qty Rate Amount",
+      "conf": 0.9999910791714987
+    },
+    {
+      "text": "MEDU WADA 1 65 65",
+      "conf": 0.9977209866046906
+    },
+    {
+      "text": "Sub Total 65.00",
+      "conf": 0.9961971640586853
+    },
+    {
+      "text": "Dis: @10% : 6.00",
+      "conf": 0.9928725063800812
+    },
+    {
+      "text": "Net Total: 59.00",
+      "conf": 0.9996232986450195
+    },
+    {
+      "text": "CGST @9%: 5.31",
+      "conf": 0.9645739495754242
+    },
+    {
+      "text": "SGST @9%: 5.31",
+      "conf": 0.9909250140190125
+    },
+    {
+      "text": "1/1 Grand Total : 70",
+      "conf": 0.996896763642629
+    },
+    {
+      "text": "GST NO 27AADFH5037M1Z6 E.&O.E. Thank You (06:56 AM)",
+      "conf": 0.9986308664083481
+    },
+    {
+      "text": "Visit Again",
+      "conf": 0.9999173879623413
+    },
+    {
+      "text": "Take Away",
+      "conf": 0.9999172687530518
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SRI KRISHNA",
+      "bill_no": "3/3",
+      "date": "2017-07-01",
+      "gstin": "27AADFH5037M1Z6",
+      "total": 70.0
+    },
+    "items": [
+      {
+        "name": "Veg Restaurant New Muncipal Bldg Joban-Putra Compound Nana Chowk,Mumbai",
+        "qty": null,
+        "rate": null,
+        "amount": 400007.0
+      },
+      {
+        "name": "MEDU WADA",
+        "qty": 1.0,
+        "rate": 65.0,
+        "amount": 65.0
+      }
+    ],
+    "financials": {
+      "subtotal": 65.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 5.31,
+      "sgst": 5.31,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 10.62,
+      "total": 70.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 59.38
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

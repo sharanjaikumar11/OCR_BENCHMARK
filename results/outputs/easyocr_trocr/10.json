@@ -1,0 +1,163 @@
+{
+  "image": "10.png",
+  "model": "easyocr_trocr",
+  "seconds": 141.372,
+  "error": null,
+  "lines": [
+    {
+      "text": "ANJAPPAR CHETTING A/C RESTAURANT",
+      "conf": null
+    },
+    {
+      "text": "CHOPE",
+      "conf": null
+    },
+    {
+      "text": "CHANGE",
+      "conf": null
+    },
+    {
+      "text": "044-28556363/5767",
+      "conf": null
+    },
+    {
+      "text": "TIN NO:33691501521",
+      "conf": null
+    },
+    {
+      "text": "BILL NO: AC12606",
+      "conf": null
+    },
+    {
+      "text": "TAB",
+      "conf": null
+    },
+    {
+      "text": "DATE:22/01/2017 TIME:3:13:01 PM",
+      "conf": null
+    },
+    {
+      "text": "CAPTAIN MANI MR() WAITER ELUMALAT",
+      "conf": null
+    },
+    {
+      "text": "MR(3)",
+      "conf": null
+    },
+    {
+      "text": "DINING HALL",
+      "conf": null
+    },
+    {
+      "text": "ITEM RATE QTY AMOUNT",
+      "conf": null
+    },
+    {
+      "text": "CHICKEN BIRIYANI 184.00 184.00",
+      "conf": null
+    },
+    {
+      "text": "ANJAPPAR REGULAR 131.00 131.00",
+      "conf": null
+    },
+    {
+      "text": "ANJAPPAR REGULAR 137.00 137.00",
+      "conf": null
+    },
+    {
+      "text": "MUTTON SUKKA VAR 182.00 182.00",
+      "conf": null
+    },
+    {
+      "text": "GOBI 65 142.00 142.00",
+      "conf": null
+    },
+    {
+      "text": "NO OF ITEMS :5 TOTAL QTY",
+      "conf": null
+    },
+    {
+      "text": "SUB TOTAL RS: 776.00",
+      "conf": null
+    },
+    {
+      "text": "VAT(2%)RS: 15.52",
+      "conf": null
+    },
+    {
+      "text": "SERVICE TAX(6)RS: 46.56",
+      "conf": null
+    },
+    {
+      "text": "TOTAL AMOUNT RS: 838.00",
+      "conf": null
+    },
+    {
+      "text": "THANK YOU!!! VISIT AGAIN!!!",
+      "conf": null
+    },
+    {
+      "text": "USER NAME:BILL",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "ANJAPPAR CHETTING A/C RESTAURANT",
+      "bill_no": "AC12606",
+      "date": "2017-01-22",
+      "gstin": "60BIGSI4200I4Z0",
+      "total": 838.0
+    },
+    "items": [
+      {
+        "name": "CHICKEN BIRIYANI",
+        "qty": null,
+        "rate": 184.0,
+        "amount": 184.0
+      },
+      {
+        "name": "ANJAPPAR REGULAR",
+        "qty": null,
+        "rate": 131.0,
+        "amount": 131.0
+      },
+      {
+        "name": "ANJAPPAR REGULAR",
+        "qty": null,
+        "rate": 137.0,
+        "amount": 137.0
+      },
+      {
+        "name": "MUTTON SUKKA VAR",
+        "qty": null,
+        "rate": 182.0,
+        "amount": 182.0
+      },
+      {
+        "name": "GOBI",
+        "qty": 65.0,
+        "rate": 142.0,
+        "amount": 142.0
+      }
+    ],
+    "financials": {
+      "subtotal": 776.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": 46.56,
+      "vat": 15.52,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 62.08,
+      "total": 838.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 775.92
+    },
+    "checks": {
+      "gstin_checksum_ok": false
+    }
+  }
+}

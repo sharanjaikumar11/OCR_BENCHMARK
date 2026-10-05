@@ -1,0 +1,125 @@
+{
+  "image": "2.png",
+  "model": "easyocr_trocr",
+  "seconds": 121.158,
+  "error": null,
+  "lines": [
+    {
+      "text": "SRI KRISHNA",
+      "conf": null
+    },
+    {
+      "text": "VEG RESTAURANT",
+      "conf": null
+    },
+    {
+      "text": "NEW MUNCIPAL BLOG",
+      "conf": null
+    },
+    {
+      "text": "JOBAN-PUTRA COMPOUND",
+      "conf": null
+    },
+    {
+      "text": "NANA CHOWK, MUMBA 400007",
+      "conf": null
+    },
+    {
+      "text": "PH:23867544,23827326",
+      "conf": null
+    },
+    {
+      "text": "TAX INVOICE",
+      "conf": null
+    },
+    {
+      "text": "DATE: PBOY: COUNTER 01/07/17 BILL NO. 3/T/3",
+      "conf": null
+    },
+    {
+      "text": "PARTICULARS QTY RATE AMOUNT",
+      "conf": null
+    },
+    {
+      "text": "MEDU WADA 65",
+      "conf": null
+    },
+    {
+      "text": "SUB TOTAL 65.00",
+      "conf": null
+    },
+    {
+      "text": "DIS: @10% 6.00",
+      "conf": null
+    },
+    {
+      "text": "NET TOTAL 59.00",
+      "conf": null
+    },
+    {
+      "text": "CGST @9% 5.31",
+      "conf": null
+    },
+    {
+      "text": "SGST @9% 5.31",
+      "conf": null
+    },
+    {
+      "text": "1/1 GRAND TOTAL 70",
+      "conf": null
+    },
+    {
+      "text": "GST NO 27AADFH5037M126 E.&O.E. THANK YOU (06:56 AM)",
+      "conf": null
+    },
+    {
+      "text": "VISIT AGAIN",
+      "conf": null
+    },
+    {
+      "text": "TAKE AWAY",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SRI KRISHNA",
+      "bill_no": "3/T/3",
+      "date": "2017-07-01",
+      "gstin": "27AADFH5037M1Z6",
+      "total": 70.0
+    },
+    "items": [
+      {
+        "name": "VEG RESTAURANT NEW MUNCIPAL BLOG JOBAN-PUTRA COMPOUND NANA CHOWK, MUMBA",
+        "qty": null,
+        "rate": null,
+        "amount": 400007.0
+      },
+      {
+        "name": "MEDU WADA",
+        "qty": null,
+        "rate": null,
+        "amount": 65.0
+      }
+    ],
+    "financials": {
+      "subtotal": 65.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 5.31,
+      "sgst": 5.31,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 10.62,
+      "total": 70.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 59.38
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

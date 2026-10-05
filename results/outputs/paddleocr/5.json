@@ -1,0 +1,193 @@
+{
+  "image": "5.png",
+  "model": "paddleocr",
+  "seconds": 56.081,
+  "error": null,
+  "lines": [
+    {
+      "text": "The Bikers Cafe",
+      "conf": 0.9999322295188904
+    },
+    {
+      "text": "Unit No. PSP C-12/14",
+      "conf": 0.9949663281440735
+    },
+    {
+      "text": "Ground Floor Palm Spring Plaza",
+      "conf": 0.9854651689529419
+    },
+    {
+      "text": "Tin No. 06111838675",
+      "conf": 0.9957368969917297
+    },
+    {
+      "text": "S. TaX No. AAECT3668ASD003",
+      "conf": 0.8667377829551697
+    },
+    {
+      "text": "GSTIN:06AAECT3668A1ZJ",
+      "conf": 0.9719944000244141
+    },
+    {
+      "text": "Type:Table",
+      "conf": 0.9825501441955566
+    },
+    {
+      "text": "Tarle Number: 6",
+      "conf": 0.9715814590454102
+    },
+    {
+      "text": "Bill No.:T3--1402",
+      "conf": 0.9672561883926392
+    },
+    {
+      "text": "Steward: Mukesh Thapa",
+      "conf": 0.9771725535392761
+    },
+    {
+      "text": "Date:2018-05-10 23:00:27",
+      "conf": 0.9810528755187988
+    },
+    {
+      "text": "Kots:125,130,133,141,142,151",
+      "conf": 0.9951423406600952
+    },
+    {
+      "text": "Itim Qty Amt",
+      "conf": 0.9561211466789246
+    },
+    {
+      "text": "LAIIES NIGH",
+      "conf": 0.9728021025657654
+    },
+    {
+      "text": "T SANGRIA 2 0.00",
+      "conf": 0.9693487286567688
+    },
+    {
+      "text": "THAI GRILLE",
+      "conf": 0.9745585918426514
+    },
+    {
+      "text": "DEISH 1 375.00",
+      "conf": 0.9840522011121114
+    },
+    {
+      "text": "10C PIPERS",
+      "conf": 0.9883270263671875
+    },
+    {
+      "text": "(20 ML) 5 1275.00",
+      "conf": 0.9865601857503256
+    },
+    {
+      "text": "EAGLE RIDER",
+      "conf": 0.9946060180664062
+    },
+    {
+      "text": "S TENDER LAM",
+      "conf": 0.9772183895111084
+    },
+    {
+      "text": "B CHOP 1 499.00",
+      "conf": 0.9844882686932882
+    },
+    {
+      "text": "Total Qty: 9",
+      "conf": 0.9973501265048981
+    },
+    {
+      "text": "sut rotal: 2149.00",
+      "conf": 0.9669549763202667
+    },
+    {
+      "text": "VAT @18.98 240.97",
+      "conf": 0.9745025038719177
+    },
+    {
+      "text": "Service Charge@10 214.90",
+      "conf": 0.9767730832099915
+    },
+    {
+      "text": "GSI 35% 48.08",
+      "conf": 0.9081344306468964
+    },
+    {
+      "text": "CGST @2.5 24.04",
+      "conf": 0.9980292916297913
+    },
+    {
+      "text": "SGST @2.5 24.04",
+      "conf": 0.9975294470787048
+    },
+    {
+      "text": "Round off: 0.05",
+      "conf": 0.9846095740795135
+    },
+    {
+      "text": "Total Invoice Value 2653",
+      "conf": 0.9995306134223938
+    },
+    {
+      "text": "!! SRVC CHRG IS OPTNL!!",
+      "conf": 0.9885150790214539
+    },
+    {
+      "text": "Powered by - Posist",
+      "conf": 0.9721641540527344
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "The Bikers Cafe",
+      "bill_no": "T3--1402",
+      "date": "2018-05-10",
+      "gstin": "06AAECT3668A1ZJ",
+      "total": 2653.0
+    },
+    "items": [
+      {
+        "name": "LAIIES NIGH T SANGRIA",
+        "qty": 2.0,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "THAI GRILLE DEISH",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 375.0
+      },
+      {
+        "name": "10C PIPERS (20 ML)",
+        "qty": 5.0,
+        "rate": null,
+        "amount": 1275.0
+      },
+      {
+        "name": "EAGLE RIDER S TENDER LAM B CHOP",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 499.0
+      }
+    ],
+    "financials": {
+      "subtotal": 2149.0,
+      "discount": null,
+      "service_charge": 214.9,
+      "service_tax": null,
+      "vat": 240.97,
+      "cgst": 24.04,
+      "sgst": 24.04,
+      "igst": null,
+      "round_off": 0.05,
+      "tax_total": 289.05,
+      "total": 2653.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 2363.95
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

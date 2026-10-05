@@ -1,0 +1,8 @@
+# Local Python environment and generated interpreter cache
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets and editor state
+.env
+.vscode/

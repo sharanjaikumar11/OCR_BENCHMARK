@@ -1,0 +1,219 @@
+{
+  "image": "4.png",
+  "model": "easyocr_trocr",
+  "seconds": 161.994,
+  "error": null,
+  "lines": [
+    {
+      "text": "TEST CHIPEN",
+      "conf": null
+    },
+    {
+      "text": "UNIT(RM) RM FUSION HOSPTUN IT RYE. 118 JUMITE MALS",
+      "conf": null
+    },
+    {
+      "text": "HYDERASAD",
+      "conf": null
+    },
+    {
+      "text": "BILL 16.3792",
+      "conf": null
+    },
+    {
+      "text": "DATE: 24/02/2019",
+      "conf": null
+    },
+    {
+      "text": "03:32 PM H NO:BILLING",
+      "conf": null
+    },
+    {
+      "text": "COVER:",
+      "conf": null
+    },
+    {
+      "text": "USER:BILLING:",
+      "conf": null
+    },
+    {
+      "text": "QTY. ITEM DESCRIPTION AMOUNT",
+      "conf": null
+    },
+    {
+      "text": "AMARTIO BRONATE",
+      "conf": null
+    },
+    {
+      "text": "BR0000LI CHES KABNB 395.00",
+      "conf": null
+    },
+    {
+      "text": "CHOCOLATE FUDGE S! 275.00",
+      "conf": null
+    },
+    {
+      "text": "JOOJEL KABAS 450.00",
+      "conf": null
+    },
+    {
+      "text": "KERALA MUTTON FRY 1575.00",
+      "conf": null
+    },
+    {
+      "text": "MARGHERILA PIZZA 550.00",
+      "conf": null
+    },
+    {
+      "text": "MUSHRM CRODUCTIES 385.00",
+      "conf": null
+    },
+    {
+      "text": "SPINACH FATAYAR 385.00",
+      "conf": null
+    },
+    {
+      "text": "WHITE PIZZA 575.00",
+      "conf": null
+    },
+    {
+      "text": "MINERAL WATER 150.00",
+      "conf": null
+    },
+    {
+      "text": "SUB TOTAL 5860.00",
+      "conf": null
+    },
+    {
+      "text": "DISCOUNT 2855.00",
+      "conf": null
+    },
+    {
+      "text": "SERV CHINGS 300.50",
+      "conf": null
+    },
+    {
+      "text": "CSST @ 2.5 82.53",
+      "conf": null
+    },
+    {
+      "text": "SGST 2.5% 82.63",
+      "conf": null
+    },
+    {
+      "text": "BILLAMOUNT:3471.00",
+      "conf": null
+    },
+    {
+      "text": "GST NO: 3SAMOF911 7CIZY",
+      "conf": null
+    },
+    {
+      "text": "RIVERS: THREE THOUS AND FOUR HANDRED SEVEN",
+      "conf": null
+    },
+    {
+      "text": "TY ONE",
+      "conf": null
+    },
+    {
+      "text": "ITEM YOU PLEASE-FILL AGAID.",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "TEST CHIPEN",
+      "bill_no": "16",
+      "date": "2019-02-24",
+      "gstin": "03SAMOF9117CIZY",
+      "total": 3471.0
+    },
+    "items": [
+      {
+        "name": "TEST CHIPEN UNIT(RM) RM FUSION HOSPTUN IT RYE",
+        "qty": null,
+        "rate": 118.0,
+        "amount": 16.0
+      },
+      {
+        "name": "AMARTIO BRONATE BR0000LI CHES KABNB",
+        "qty": null,
+        "rate": null,
+        "amount": 395.0
+      },
+      {
+        "name": "CHOCOLATE FUDGE S!",
+        "qty": null,
+        "rate": null,
+        "amount": 275.0
+      },
+      {
+        "name": "JOOJEL KABAS",
+        "qty": null,
+        "rate": null,
+        "amount": 450.0
+      },
+      {
+        "name": "KERALA MUTTON FRY",
+        "qty": null,
+        "rate": null,
+        "amount": 1575.0
+      },
+      {
+        "name": "MARGHERILA PIZZA",
+        "qty": null,
+        "rate": null,
+        "amount": 550.0
+      },
+      {
+        "name": "MUSHRM CRODUCTIES",
+        "qty": null,
+        "rate": null,
+        "amount": 385.0
+      },
+      {
+        "name": "SPINACH FATAYAR",
+        "qty": null,
+        "rate": null,
+        "amount": 385.0
+      },
+      {
+        "name": "WHITE PIZZA",
+        "qty": null,
+        "rate": null,
+        "amount": 575.0
+      },
+      {
+        "name": "MINERAL WATER",
+        "qty": null,
+        "rate": null,
+        "amount": 150.0
+      },
+      {
+        "name": "SERV CHINGS",
+        "qty": null,
+        "rate": null,
+        "amount": 300.5
+      }
+    ],
+    "financials": {
+      "subtotal": 5860.0,
+      "discount": 2855.0,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": 82.63,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 82.63,
+      "total": 3471.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 3388.37
+    },
+    "checks": {
+      "gstin_checksum_ok": false
+    }
+  }
+}

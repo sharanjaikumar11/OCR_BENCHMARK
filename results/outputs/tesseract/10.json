@@ -1,0 +1,52 @@
+{
+  "image": "10.png",
+  "model": "tesseract",
+  "seconds": 0.163,
+  "error": null,
+  "lines": [
+    {
+      "text": "VAT(2%)RS 15.52",
+      "conf": 0.745
+    },
+    {
+      "text": "L AMOUNT As 0v0.W",
+      "conf": 0.545
+    },
+    {
+      "text": "Thank You!!! Visit Again! 1!!",
+      "conf": 0.61
+    },
+    {
+      "text": "User Name:Bi |",
+      "conf": 0.7366666666666667
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "L AMOUNT As 0v0.W",
+      "bill_no": null,
+      "date": null,
+      "gstin": null,
+      "total": 15.52
+    },
+    "items": [],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": 15.52,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 15.52,
+      "total": 15.52,
+      "total_includes_tax": true,
+      "total_excluding_tax": 0.0
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

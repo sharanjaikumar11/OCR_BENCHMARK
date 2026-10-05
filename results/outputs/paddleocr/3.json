@@ -1,0 +1,121 @@
+{
+  "image": "3.png",
+  "model": "paddleocr",
+  "seconds": 43.155,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL CITY LITE",
+      "conf": 0.9992389678955078
+    },
+    {
+      "text": "Malad west Mumbai Maharashtra",
+      "conf": 0.9950212836265564
+    },
+    {
+      "text": "RECEIPT",
+      "conf": 0.9999868273735046
+    },
+    {
+      "text": "Name: RAJNISH UPADHYAY Invoice No: 7723",
+      "conf": 0.9844264388084412
+    },
+    {
+      "text": "Table: #98 Date: 12 Jul 2023",
+      "conf": 0.9951794147491455
+    },
+    {
+      "text": "Item Price Qty Total",
+      "conf": 0.999850407242775
+    },
+    {
+      "text": "Panner masala ₹180 01 €180",
+      "conf": 0.8960986137390137
+    },
+    {
+      "text": "Butter Naan 450 03 €150",
+      "conf": 0.8861394226551056
+    },
+    {
+      "text": "Sub-Total: 329.5",
+      "conf": 0.9999724328517914
+    },
+    {
+      "text": "CGST: 2.5%",
+      "conf": 0.9999575018882751
+    },
+    {
+      "text": "8.25",
+      "conf": 0.9999983310699463
+    },
+    {
+      "text": "SGST: 2.5%",
+      "conf": 0.9547964334487915
+    },
+    {
+      "text": "8.25",
+      "conf": 0.9999982118606567
+    },
+    {
+      "text": "Mode: Cash Total: 3 346",
+      "conf": 0.9589195549488068
+    },
+    {
+      "text": "**SAVE PAPER SAVE NATURE!",
+      "conf": 0.9931529760360718
+    },
+    {
+      "text": "YOU CAN NOW CALL US ON 1800 226344 (TOLL-",
+      "conf": 0.9919402599334717
+    },
+    {
+      "text": "FREE) FOR QUERIES/COMPLAINTS.",
+      "conf": 0.9995927214622498
+    },
+    {
+      "text": "Time: 09:08",
+      "conf": 0.9947357177734375
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL CITY LITE",
+      "bill_no": "7723",
+      "date": "2023-07-12",
+      "gstin": null,
+      "total": 346.0
+    },
+    "items": [
+      {
+        "name": "Panner masala",
+        "qty": 1.0,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "Butter Naan 450",
+        "qty": 3.0,
+        "rate": null,
+        "amount": 150.0
+      }
+    ],
+    "financials": {
+      "subtotal": 329.5,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 8.25,
+      "sgst": 8.25,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 16.5,
+      "total": 346.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 329.5
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

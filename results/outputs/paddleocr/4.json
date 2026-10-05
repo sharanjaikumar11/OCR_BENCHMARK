@@ -1,0 +1,217 @@
+{
+  "image": "4.png",
+  "model": "paddleocr",
+  "seconds": 50.211,
+  "error": null,
+  "lines": [
+    {
+      "text": "F JEST KOTCHEN",
+      "conf": 0.7446123957633972
+    },
+    {
+      "text": "A UNIL OF FUSTON HOSPITNL TSY PVE: LED",
+      "conf": 0.8181411027908325
+    },
+    {
+      "text": "Road No. 6. JABILEE HLLS",
+      "conf": 0.8334710597991943
+    },
+    {
+      "text": "HYDERABAD",
+      "conf": 0.9787929058074951
+    },
+    {
+      "text": "BI NO:3792",
+      "conf": 0.8995233774185181
+    },
+    {
+      "text": "Date: 24/02/2019",
+      "conf": 0.9631963968276978
+    },
+    {
+      "text": "Time: 03:32 PM W.No: bi11ing",
+      "conf": 0.909525603055954
+    },
+    {
+      "text": "L.No: S6 Covers: 2",
+      "conf": 0.9286155104637146
+    },
+    {
+      "text": "User: billing",
+      "conf": 0.9617226719856262
+    },
+    {
+      "text": "Oty. Item Description Aaut",
+      "conf": 0.8102722764015198
+    },
+    {
+      "text": "4 AMARETIO BROMNTE 1100.00",
+      "conf": 0.9278649687767029
+    },
+    {
+      "text": "1 BROCCOLI CHES KABAB 395.00",
+      "conf": 0.9765011072158813
+    },
+    {
+      "text": "1 CHOCOLATE FUDGE SI 275.00",
+      "conf": 0.9617041647434235
+    },
+    {
+      "text": "1 JOOJEH KABAB 450.00",
+      "conf": 0.972437858581543
+    },
+    {
+      "text": "3 KERALA MUTTON FRY 1575.00",
+      "conf": 0.9931960999965668
+    },
+    {
+      "text": "I MARGHERITA PIZZA 550.00",
+      "conf": 0.9775587320327759
+    },
+    {
+      "text": "I MUSHRM CROQUETTES 395.00",
+      "conf": 0.9531271755695343
+    },
+    {
+      "text": "SPINACH FATAYAR 395.00",
+      "conf": 0.998180478811264
+    },
+    {
+      "text": "WHITE PIZZA 575.00",
+      "conf": 0.9962701797485352
+    },
+    {
+      "text": "3 MINERAL WATER 150.00",
+      "conf": 0.9892421662807465
+    },
+    {
+      "text": "Sub Total 5860.00",
+      "conf": 0.9916696846485138
+    },
+    {
+      "text": "Discount 2855.00",
+      "conf": 0.9981634616851807
+    },
+    {
+      "text": "Serv Chrgs @ 102 300.50",
+      "conf": 0.9689362645149231
+    },
+    {
+      "text": "DSST 82.5 82.63",
+      "conf": 0.9018219709396362
+    },
+    {
+      "text": "SGST @ 2.5t : 82.63",
+      "conf": 0.9442101716995239
+    },
+    {
+      "text": "BillAmount:3471.00",
+      "conf": 0.9951889514923096
+    },
+    {
+      "text": "GST NO: 36AAACF9117C1ZY",
+      "conf": 0.9316529035568237
+    },
+    {
+      "text": "Rupees: Three Thousand Four hundred Seven",
+      "conf": 0.8467028737068176
+    },
+    {
+      "text": "ty One",
+      "conf": 0.989748477935791
+    },
+    {
+      "text": "Itanc-you 1 Plrase siait agaio.",
+      "conf": 0.6948488652706146
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "F JEST KOTCHEN",
+      "bill_no": "3792",
+      "date": "2019-02-24",
+      "gstin": "36AAACF9117C1ZY",
+      "total": 3471.0
+    },
+    "items": [
+      {
+        "name": "AMARETIO BROMNTE",
+        "qty": 4.0,
+        "rate": null,
+        "amount": 1100.0
+      },
+      {
+        "name": "BROCCOLI CHES KABAB",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 395.0
+      },
+      {
+        "name": "CHOCOLATE FUDGE SI",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 275.0
+      },
+      {
+        "name": "JOOJEH KABAB",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 450.0
+      },
+      {
+        "name": "KERALA MUTTON FRY",
+        "qty": 3.0,
+        "rate": null,
+        "amount": 1575.0
+      },
+      {
+        "name": "MARGHERITA PIZZA",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 550.0
+      },
+      {
+        "name": "MUSHRM CROQUETTES",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 395.0
+      },
+      {
+        "name": "SPINACH FATAYAR",
+        "qty": null,
+        "rate": null,
+        "amount": 395.0
+      },
+      {
+        "name": "WHITE PIZZA",
+        "qty": null,
+        "rate": null,
+        "amount": 575.0
+      },
+      {
+        "name": "MINERAL WATER",
+        "qty": 3.0,
+        "rate": null,
+        "amount": 150.0
+      }
+    ],
+    "financials": {
+      "subtotal": 5860.0,
+      "discount": 2855.0,
+      "service_charge": 300.5,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 82.63,
+      "sgst": 82.63,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 165.26,
+      "total": 3471.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 3305.74
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

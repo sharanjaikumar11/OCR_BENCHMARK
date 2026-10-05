@@ -1,0 +1,151 @@
+{
+  "image": "7.png",
+  "model": "tesseract",
+  "seconds": 0.307,
+  "error": null,
+  "lines": [
+    {
+      "text": "SHIVSAGAR",
+      "conf": 0.92
+    },
+    {
+      "text": "Veg Restaurant",
+      "conf": 0.95
+    },
+    {
+      "text": "NH 3, Mumbai Nashik Highway",
+      "conf": 0.554
+    },
+    {
+      "text": "Opp.Bhoir Pada Bus Stop, Near Padga",
+      "conf": 0.7166666666666667
+    },
+    {
+      "text": "Bhiwandi , Thane",
+      "conf": 0.8833333333333333
+    },
+    {
+      "text": "Date : 01/07/17 Bil} Wo. : 9B",
+      "conf": 0.6785714285714286
+    },
+    {
+      "text": "T.No.: 6 W.No. : 18",
+      "conf": 0.562
+    },
+    {
+      "text": "Particulars Qty Rate Amount",
+      "conf": 0.9099999999999999
+    },
+    {
+      "text": "MISAL PAV Ya 170",
+      "conf": 0.7625
+    },
+    {
+      "text": "BATATA WADA 1 70 70",
+      "conf": 0.9279999999999999
+    },
+    {
+      "text": "MEDU WADA 1 80 80",
+      "conf": 0.876
+    },
+    {
+      "text": "FILTER COFFEE 1 3 3",
+      "conf": 0.8240000000000001
+    },
+    {
+      "text": "Sub Total :, 355.00",
+      "conf": 0.77
+    },
+    {
+      "text": "$.G.8.7 @9% : 31.95",
+      "conf": 0.5775
+    },
+    {
+      "text": "C.G.S. 1.69% : 31,95",
+      "conf": 0.335
+    },
+    {
+      "text": "Food | e 418.9",
+      "conf": 0.37
+    },
+    {
+      "text": "4/5/1 \\ j",
+      "conf": 0.54
+    },
+    {
+      "text": "(09:09 AM)",
+      "conf": 0.925
+    },
+    {
+      "text": "E.80.E, THANNK YOU Visit Again",
+      "conf": 0.8119999999999999
+    },
+    {
+      "text": "GST-27AASCS2460H1Z0",
+      "conf": 0.45
+    },
+    {
+      "text": "GARDEN",
+      "conf": 0.96
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SHIVSAGAR",
+      "bill_no": null,
+      "date": "2017-07-01",
+      "gstin": "27AASCS2460H1Z0",
+      "total": 418.9
+    },
+    "items": [
+      {
+        "name": "MISAL PAV Ya",
+        "qty": null,
+        "rate": null,
+        "amount": 170.0
+      },
+      {
+        "name": "BATATA WADA",
+        "qty": 1.0,
+        "rate": 70.0,
+        "amount": 70.0
+      },
+      {
+        "name": "MEDU WADA",
+        "qty": 1.0,
+        "rate": 80.0,
+        "amount": 80.0
+      },
+      {
+        "name": "FILTER COFFEE",
+        "qty": 1.0,
+        "rate": 3.0,
+        "amount": 3.0
+      },
+      {
+        "name": "Food | e",
+        "qty": null,
+        "rate": null,
+        "amount": 418.9
+      }
+    ],
+    "financials": {
+      "subtotal": 355.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 418.9,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

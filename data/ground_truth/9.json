@@ -1,0 +1,32 @@
+{
+  "text": "Bhagini\nSriganda Palace\nService Rd, T K Reddy Layout, Annaiah Reddy Layout, Banaswadi, Bengaluru, Karnataka 560043\nGST No 29ADDPR8125K1Z2\nRECEIPT\nName: Siva Shankar Invoice No: 7767\nTable: #37 Date: 16 May 2024\nItem Price Qty Total\nMutton biriyani 400 4 1600\nTandoori Roti 30 5 150\nChilly chicken 250 2 500\nChicken pepper 250 3 750\nSub-Total: 3000\nCGST: 2.5% 75\nSGST: 2.5% 75\nMode: Cash Total: 3150",
+  "fields": {
+    "restaurant_name": "Sriganda Palace",
+    "bill_no": "7767",
+    "date": "16/05/2024",
+    "gstin": "29ADDPR8125K1Z2",
+    "total": 3150.0
+  },
+  "items": [
+    {
+      "name": "Mutton biriyani",
+      "qty": 4,
+      "amount": 1600.0
+    },
+    {
+      "name": "Tandoori Roti",
+      "qty": 5,
+      "amount": 150.0
+    },
+    {
+      "name": "Chilly chicken",
+      "qty": 2,
+      "amount": 500.0
+    },
+    {
+      "name": "Chicken pepper",
+      "qty": 3,
+      "amount": 750.0
+    }
+  ]
+}

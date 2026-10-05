@@ -1,0 +1,175 @@
+{
+  "image": "5.png",
+  "model": "tesseract",
+  "seconds": 0.291,
+  "error": null,
+  "lines": [
+    {
+      "text": "The Bikers cafe",
+      "conf": 0.8166666666666668
+    },
+    {
+      "text": "gmat Mo. PSP -12/14",
+      "conf": 0.34249999999999997
+    },
+    {
+      "text": "Ground Floor Fain spring Plaza",
+      "conf": 0.71
+    },
+    {
+      "text": "‘Pin Wo. 06111038675",
+      "conf": 0.35000000000000003
+    },
+    {
+      "text": "2.1ax to, AARCTI6EEASD003",
+      "conf": 0.23666666666666666
+    },
+    {
+      "text": "esi mt:oantcrueseaizs",
+      "conf": 0.22
+    },
+    {
+      "text": "aype:tapte",
+      "conf": 0.0
+    },
+    {
+      "text": "Table minber: 6",
+      "conf": 0.6466666666666666
+    },
+    {
+      "text": "BALL wo. a--402",
+      "conf": 0.32666666666666666
+    },
+    {
+      "text": "Stevard: Mikesh thaps",
+      "conf": 0.22666666666666666
+    },
+    {
+      "text": "rem ay ame",
+      "conf": 0.4266666666666667
+    },
+    {
+      "text": "TEAWeRTA 2 2.00",
+      "conf": 0.4033333333333333
+    },
+    {
+      "text": "plik are 2275.00",
+      "conf": 0.4066666666666667
+    },
+    {
+      "text": "3 TENDER 2aKt",
+      "conf": 0.37999999999999995
+    },
+    {
+      "text": "2 cHoP 2 499.00",
+      "conf": 0.6725
+    },
+    {
+      "text": "“not, \" a",
+      "conf": 0.24333333333333332
+    },
+    {
+      "text": "Service chargesi0 214.90",
+      "conf": 0.6533333333333333
+    },
+    {
+      "text": "ostase 49.08",
+      "conf": 0.41
+    },
+    {
+      "text": "cost e2.5 24.08",
+      "conf": 0.48333333333333334
+    },
+    {
+      "text": "sost e2.5 24.04",
+      "conf": 0.2733333333333334
+    },
+    {
+      "text": "Rovad off: iy",
+      "conf": 0.7466666666666667
+    },
+    {
+      "text": "Total Invoice Value 2653",
+      "conf": 0.575
+    },
+    {
+      "text": "1! SRVC CHRG IS OPTNL!!",
+      "conf": 0.766
+    },
+    {
+      "text": "Powered by - POSist g",
+      "conf": 0.612
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "The Bikers cafe",
+      "bill_no": null,
+      "date": null,
+      "gstin": null,
+      "total": 2653.0
+    },
+    "items": [
+      {
+        "name": "‘Pin Wo",
+        "qty": null,
+        "rate": null,
+        "amount": 6111038675.0
+      },
+      {
+        "name": "rem ay ame TEAWeRTA",
+        "qty": 2.0,
+        "rate": null,
+        "amount": 2.0
+      },
+      {
+        "name": "plik are",
+        "qty": null,
+        "rate": null,
+        "amount": 2275.0
+      },
+      {
+        "name": "TENDER 2aKt 2 cHoP",
+        "qty": 2.0,
+        "rate": null,
+        "amount": 499.0
+      },
+      {
+        "name": "ostase",
+        "qty": null,
+        "rate": null,
+        "amount": 49.08
+      },
+      {
+        "name": "cost e2.5",
+        "qty": null,
+        "rate": null,
+        "amount": 24.08
+      },
+      {
+        "name": "sost e2.5",
+        "qty": null,
+        "rate": null,
+        "amount": 24.04
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": 214.9,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 2653.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

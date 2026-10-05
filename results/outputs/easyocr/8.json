@@ -1,0 +1,159 @@
+{
+  "image": "8.png",
+  "model": "easyocr",
+  "seconds": 4.229,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL SRI JANAKIRAM",
+      "conf": 0.9492975511421835
+    },
+    {
+      "text": "49,[AMILSANGAM ROAD,",
+      "conf": 0.5138267372554889
+    },
+    {
+      "text": "MADural ~PH 0452.2342744",
+      "conf": 0.4988757251080784
+    },
+    {
+      "text": "GST 330F113134J1ZE",
+      "conf": 0.24690987729286296
+    },
+    {
+      "text": "BILLNO: C9 29/08/23 01.26 PM",
+      "conf": 0.8841874805031894
+    },
+    {
+      "text": "Waiter THANGAPANDI HALL 2",
+      "conf": 0.681036180970297
+    },
+    {
+      "text": "Talile: 12A Person ; 4",
+      "conf": 0.7937007825707213
+    },
+    {
+      "text": "Kot Nos : 46,66",
+      "conf": 0.47385952885105015
+    },
+    {
+      "text": "PAFUTICULARS RATE QTY AMOUNT",
+      "conf": 0.8223236808669409
+    },
+    {
+      "text": "MEALS 120.00 240.00",
+      "conf": 0.8587859701829982
+    },
+    {
+      "text": "plaIn BRIYANI 180.00 180.00",
+      "conf": 0.6991738788684335
+    },
+    {
+      "text": "MLTTAN CHUKKA 180.00 360.00",
+      "conf": 0.5817143811568051
+    },
+    {
+      "text": "Cihcrliv 85 90.00 90.00",
+      "conf": 0.6694671647338889
+    },
+    {
+      "text": "MUMEN COLA 50.00 160.00",
+      "conf": 0.705629184879332
+    },
+    {
+      "text": "CaSH Sub Total 1,020.00",
+      "conf": 0.7891431388657694
+    },
+    {
+      "text": "Round Of 0.01",
+      "conf": 0.6890253103966801
+    },
+    {
+      "text": "Qly NETT Rs: 1,020.00",
+      "conf": 0.75297262090273
+    },
+    {
+      "text": "Tax Am CGs] \"CGST AmtEGsT %SGST Amd]",
+      "conf": 0.36579403911391606
+    },
+    {
+      "text": "97L43 242 2429",
+      "conf": 0.8237712317913739
+    },
+    {
+      "text": "THANK YOu. ViSIT AGAIN",
+      "conf": 0.27483404979754383
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL SRI JANAKIRAM",
+      "bill_no": "C9",
+      "date": "2023-08-29",
+      "gstin": null,
+      "total": 1020.0
+    },
+    "items": [
+      {
+        "name": "MADural ~PH",
+        "qty": null,
+        "rate": null,
+        "amount": 452.0
+      },
+      {
+        "name": "Waiter THANGAPANDI HALL",
+        "qty": null,
+        "rate": null,
+        "amount": 2.0
+      },
+      {
+        "name": "MEALS",
+        "qty": null,
+        "rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "name": "plaIn BRIYANI",
+        "qty": null,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "MLTTAN CHUKKA",
+        "qty": null,
+        "rate": 180.0,
+        "amount": 360.0
+      },
+      {
+        "name": "Cihcrliv",
+        "qty": 85.0,
+        "rate": 90.0,
+        "amount": 90.0
+      },
+      {
+        "name": "MUMEN COLA",
+        "qty": 50.0,
+        "rate": null,
+        "amount": 160.0
+      }
+    ],
+    "financials": {
+      "subtotal": 1020.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 1020.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

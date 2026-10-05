@@ -1,0 +1,62 @@
+{
+  "text": "FB REST KITCHEN\nA UNIT OF FUSION HOSPITALITY PVT. LTD\nRoad No. 6, Jubilee Hills, Hyderabad\nBill No: 3792\nDate: 24/02/2019\nQty Item Description Amount\n4 AMARETTO BROWNIE 1100.00\n1 BROCCOLI CHEESE KABAB 395.00\n1 CHOCOLATE FUDGE SI 275.00\n1 JOOJEH KABAB 450.00\n3 KERALA MUTTON FRY 1575.00\n1 MARGHERITA PIZZA 550.00\n1 MUSHROOM CROQUETTES 395.00\n1 SPINACH FATAYAR 395.00\n1 WHITE PIZZA 575.00\n3 MINERAL WATER 150.00\nSub Total 5860.00\nDiscount 2855.00\nService Charges @ 10% 300.50\nCGST @ 2.5% 82.63\nSGST @ 2.5% 82.63\nBill Amount: 3471.00\nGST NO: 36AAACF9117C1ZY",
+  "fields": {
+    "restaurant_name": "FB REST KITCHEN",
+    "bill_no": "3792",
+    "date": "24/02/2019",
+    "gstin": "36AAACF9117C1ZY",
+    "total": 3471.0
+  },
+  "items": [
+    {
+      "name": "AMARETTO BROWNIE",
+      "qty": 4,
+      "amount": 1100.0
+    },
+    {
+      "name": "BROCCOLI CHES KABAB",
+      "qty": 1,
+      "amount": 395.0
+    },
+    {
+      "name": "CHOCOLATE FUDGE SI",
+      "qty": 1,
+      "amount": 275.0
+    },
+    {
+      "name": "JOOJEH KABAB",
+      "qty": 1,
+      "amount": 450.0
+    },
+    {
+      "name": "KERALA MUTTON FRY",
+      "qty": 3,
+      "amount": 1575.0
+    },
+    {
+      "name": "MARGHERITA PIZZA",
+      "qty": 1,
+      "amount": 550.0
+    },
+    {
+      "name": "MUSHRM CROQUETTES",
+      "qty": 1,
+      "amount": 395.0
+    },
+    {
+      "name": "SPINACH FATAYAR",
+      "qty": 1,
+      "amount": 395.0
+    },
+    {
+      "name": "WHITE PIZZA",
+      "qty": 1,
+      "amount": 575.0
+    },
+    {
+      "name": "MINERAL WATER",
+      "qty": 3,
+      "amount": 150.0
+    }
+  ]
+}

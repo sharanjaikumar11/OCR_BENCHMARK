@@ -1,0 +1,165 @@
+{
+  "image": "5.png",
+  "model": "easyocr_trocr",
+  "seconds": 102.88,
+  "error": null,
+  "lines": [
+    {
+      "text": "BLKERS CAFE",
+      "conf": null
+    },
+    {
+      "text": "UNIT NO. PSP C-12/14",
+      "conf": null
+    },
+    {
+      "text": "OUND FLOOR PAIM SPRING PLAZA",
+      "conf": null
+    },
+    {
+      "text": "06111838675",
+      "conf": null
+    },
+    {
+      "text": "AAECT366BASD003",
+      "conf": null
+    },
+    {
+      "text": "GSTIN 06AAECT366 8A1&J",
+      "conf": null
+    },
+    {
+      "text": "TABLE",
+      "conf": null
+    },
+    {
+      "text": "TABLE NUMBER",
+      "conf": null
+    },
+    {
+      "text": "1402",
+      "conf": null
+    },
+    {
+      "text": "STEMARD: MUKESH THAPA",
+      "conf": null
+    },
+    {
+      "text": "LADIES NIGH",
+      "conf": null
+    },
+    {
+      "text": "ANGRIA",
+      "conf": null
+    },
+    {
+      "text": "THA GRILLE",
+      "conf": null
+    },
+    {
+      "text": "PIPERS",
+      "conf": null
+    },
+    {
+      "text": "1275",
+      "conf": null
+    },
+    {
+      "text": "EAGLE RIDER",
+      "conf": null
+    },
+    {
+      "text": "ENDER LAM",
+      "conf": null
+    },
+    {
+      "text": "CHOP",
+      "conf": null
+    },
+    {
+      "text": "TOTAL QTY:",
+      "conf": null
+    },
+    {
+      "text": "SUB TOTAL 2149",
+      "conf": null
+    },
+    {
+      "text": "@18 240",
+      "conf": null
+    },
+    {
+      "text": "SERVICE CHARGE@10",
+      "conf": null
+    },
+    {
+      "text": "GST@5",
+      "conf": null
+    },
+    {
+      "text": "CGST",
+      "conf": null
+    },
+    {
+      "text": "SGST",
+      "conf": null
+    },
+    {
+      "text": "OFF:",
+      "conf": null
+    },
+    {
+      "text": "TOTAL INVOICE VALUE 2653",
+      "conf": null
+    },
+    {
+      "text": "SRVC CHRG OPTNL",
+      "conf": null
+    },
+    {
+      "text": "POWERED BY POSIST",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "BLKERS CAFE",
+      "bill_no": null,
+      "date": null,
+      "gstin": null,
+      "total": 2653.0
+    },
+    "items": [
+      {
+        "name": "OUND FLOOR PAIM SPRING PLAZA",
+        "qty": null,
+        "rate": null,
+        "amount": 6111838675.0
+      },
+      {
+        "name": "ANGRIA THA GRILLE PIPERS",
+        "qty": null,
+        "rate": null,
+        "amount": 1275.0
+      }
+    ],
+    "financials": {
+      "subtotal": 2149.0,
+      "discount": null,
+      "service_charge": 10.0,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 2653.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

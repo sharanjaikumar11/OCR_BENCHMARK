@@ -1,0 +1,163 @@
+{
+  "image": "10.png",
+  "model": "paddleocr",
+  "seconds": 49.6,
+  "error": null,
+  "lines": [
+    {
+      "text": "AN/APPAR CHETTINAD A/C RESTAURANT",
+      "conf": 0.9908424019813538
+    },
+    {
+      "text": "No, 191, Bella Road. Chepauk.",
+      "conf": 0.8259015679359436
+    },
+    {
+      "text": "Chennai-05",
+      "conf": 0.9696658253669739
+    },
+    {
+      "text": "Ph:044-28556363/6767",
+      "conf": 0.9851976633071899
+    },
+    {
+      "text": "Tin No:33591501521",
+      "conf": 0.9989364147186279
+    },
+    {
+      "text": "BILL NO: AC12606",
+      "conf": 0.9875510931015015
+    },
+    {
+      "text": "TABLE NO:",
+      "conf": 0.999043881893158
+    },
+    {
+      "text": "Date:22/01/2017 TIME:3:13:01 PM",
+      "conf": 0.9948201775550842
+    },
+    {
+      "text": "CAPTAIN G S MANI MR() WAITER : ELUMALAI",
+      "conf": 0.9850438237190247
+    },
+    {
+      "text": "MR(3)",
+      "conf": 0.9988425374031067
+    },
+    {
+      "text": "DINING HALL : AC",
+      "conf": 0.9316569268703461
+    },
+    {
+      "text": "ITEM RATE QTY AMOUNT",
+      "conf": 0.9994234244028727
+    },
+    {
+      "text": "CHICKEN BIRIYANI 184.00 1 184.00",
+      "conf": 0.9995362460613251
+    },
+    {
+      "text": "ANJAPPAR REGULAR 131.00 1 131.00",
+      "conf": 0.9977874457836151
+    },
+    {
+      "text": "ANJAPPAR REGULAR 137.00 1 137.00",
+      "conf": 0.9977805465459824
+    },
+    {
+      "text": "MUTTON SUKKA VAR 182.00 1 182.00",
+      "conf": 0.9993078261613846
+    },
+    {
+      "text": "GOBI 65 142.00 1 142.00",
+      "conf": 0.9653802961111069
+    },
+    {
+      "text": "NO OF ITEMS :5 TOTAL QTY : 5",
+      "conf": 0.9953644871711731
+    },
+    {
+      "text": "SUB TOTAL Rs: 776.00",
+      "conf": 0.9998456835746765
+    },
+    {
+      "text": "VAT(2%)Rs: 15.52",
+      "conf": 0.9987136721611023
+    },
+    {
+      "text": "Service Tax(6)Rs: 46.56",
+      "conf": 0.9997803270816803
+    },
+    {
+      "text": "TOTAL AMOUNT Rs: 838.00",
+      "conf": 0.997314453125
+    },
+    {
+      "text": "Thank You!!!! Visit Again!!!!",
+      "conf": 0.9995218515396118
+    },
+    {
+      "text": "User Name:Bill",
+      "conf": 0.9999690651893616
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "AN/APPAR CHETTINAD A/C RESTAURANT",
+      "bill_no": "AC12606",
+      "date": "2017-01-22",
+      "gstin": null,
+      "total": 838.0
+    },
+    "items": [
+      {
+        "name": "CHICKEN BIRIYANI",
+        "qty": 1.0,
+        "rate": 184.0,
+        "amount": 184.0
+      },
+      {
+        "name": "ANJAPPAR REGULAR",
+        "qty": 1.0,
+        "rate": 131.0,
+        "amount": 131.0
+      },
+      {
+        "name": "ANJAPPAR REGULAR",
+        "qty": 1.0,
+        "rate": 137.0,
+        "amount": 137.0
+      },
+      {
+        "name": "MUTTON SUKKA VAR",
+        "qty": 1.0,
+        "rate": 182.0,
+        "amount": 182.0
+      },
+      {
+        "name": "GOBI 65",
+        "qty": 1.0,
+        "rate": 142.0,
+        "amount": 142.0
+      }
+    ],
+    "financials": {
+      "subtotal": 776.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": 46.56,
+      "vat": 15.52,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 62.08,
+      "total": 838.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 775.92
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

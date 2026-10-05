@@ -1,0 +1,32 @@
+{
+  "text": "The Bikers Cafe\nUnit No. PSP C-12/14\nGround Floor Palm Spring Plaza\nGSTIN: 06AAECT3668A1ZJ\nType: Table\nTable Number: 6\nBill No.: T3--1402\nSteward: Mukesh Thapa\nDate: 2018-05-10 23:00:27\nItem Qty Amt\nLADIES NIGHT SANGRIA 2 0.00\nTHAI GRILLED FISH 1 375.00\n100 PIPERS (30 ML) 5 1275.00\nEAGLE RIDERS TENDER LAMB CHOP 1 499.00\nTotal Qty: 9\nSub Total: 2149.00\nVAT @18.9% 240.97\nService Charge @10 214.90\nCGST @2.5 24.04\nSGST @2.5 24.04\nRound Off: 0.05\nTotal Invoice Value 2653",
+  "fields": {
+    "restaurant_name": "The Bikers Cafe",
+    "bill_no": "T3--1402",
+    "date": "2018-05-10",
+    "gstin": "06AAECT3668A1ZJ",
+    "total": 2653.0
+  },
+  "items": [
+    {
+      "name": "LADIES NIGHT SANGRIA",
+      "qty": 2,
+      "amount": 0.0
+    },
+    {
+      "name": "THAI GRILLED FISH",
+      "qty": 1,
+      "amount": 375.0
+    },
+    {
+      "name": "100 PIPERS (30 ML)",
+      "qty": 5,
+      "amount": 1275.0
+    },
+    {
+      "name": "EAGLE RIDERS TENDER LAMB CHOP",
+      "qty": 1,
+      "amount": 499.0
+    }
+  ]
+}

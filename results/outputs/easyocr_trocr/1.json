@@ -1,0 +1,109 @@
+{
+  "image": "1.png",
+  "model": "easyocr_trocr",
+  "seconds": 67.797,
+  "error": null,
+  "lines": [
+    {
+      "text": "RESTAURANT",
+      "conf": null
+    },
+    {
+      "text": "FOOD BILL",
+      "conf": null
+    },
+    {
+      "text": "INVOICE #: 1304",
+      "conf": null
+    },
+    {
+      "text": "DATE 24/04/2024",
+      "conf": null
+    },
+    {
+      "text": "DESCRIPTION QTY RATE AMOUNT",
+      "conf": null
+    },
+    {
+      "text": "PANEER BUTTER MASALA F180.00 $180.00",
+      "conf": null
+    },
+    {
+      "text": "VEG BIRYANI $150.00 $ 150.00",
+      "conf": null
+    },
+    {
+      "text": "TANDORI ROTI $20.00 760.00",
+      "conf": null
+    },
+    {
+      "text": "GULAR JAMUN $100.00 $100.00",
+      "conf": null
+    },
+    {
+      "text": "CGST @ 2.5% #12.25",
+      "conf": null
+    },
+    {
+      "text": "SGST @ 2.5% #12.25",
+      "conf": null
+    },
+    {
+      "text": "TOTAL R 514.50",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "RESTAURANT",
+      "bill_no": "1304",
+      "date": "2024-04-24",
+      "gstin": null,
+      "total": 514.5
+    },
+    "items": [
+      {
+        "name": "PANEER BUTTER MASALA F180.00 $",
+        "qty": null,
+        "rate": null,
+        "amount": 180.0
+      },
+      {
+        "name": "VEG BIRYANI $",
+        "qty": null,
+        "rate": 150.0,
+        "amount": 150.0
+      },
+      {
+        "name": "TANDORI ROTI $",
+        "qty": 20.0,
+        "rate": null,
+        "amount": 760.0
+      },
+      {
+        "name": "GULAR JAMUN $",
+        "qty": null,
+        "rate": 100.0,
+        "amount": 100.0
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 12.25,
+      "sgst": 12.25,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 24.5,
+      "total": 514.5,
+      "total_includes_tax": true,
+      "total_excluding_tax": 490.0
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

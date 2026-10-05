@@ -1,0 +1,187 @@
+{
+  "image": "4.png",
+  "model": "tesseract",
+  "seconds": 0.314,
+  "error": null,
+  "lines": [
+    {
+      "text": "4 Uo Futon vEPEIN YN h",
+      "conf": 0.14666666666666667
+    },
+    {
+      "text": "iit",
+      "conf": 0.39
+    },
+    {
+      "text": "St mATO \"",
+      "conf": 0.06333333333333334
+    },
+    {
+      "text": "tae: sunyans",
+      "conf": 0.165
+    },
+    {
+      "text": "Tae: OPN KN: bith",
+      "conf": 0.3
+    },
+    {
+      "text": "ie: 5 (owes: 2",
+      "conf": 0.40750000000000003
+    },
+    {
+      "text": "User: bitin",
+      "conf": 0.32
+    },
+    {
+      "text": "Oty. The Description ant",
+      "conf": 0.43
+    },
+    {
+      "text": "4 ve} een.",
+      "conf": 0.25
+    },
+    {
+      "text": "SOIL OFS 8K 5.",
+      "conf": 0.43
+    },
+    {
+      "text": "1 QOLATE Ale.",
+      "conf": 0.26333333333333336
+    },
+    {
+      "text": "1 Jat 88 a0",
+      "conf": 0.41000000000000003
+    },
+    {
+      "text": "3 KAA MUTINY 15.00",
+      "conf": 0.33749999999999997
+    },
+    {
+      "text": "RHERIIA PLZZA 0.0",
+      "conf": 0.14666666666666667
+    },
+    {
+      "text": "1 NEVER COOMETIES —.0D",
+      "conf": 0.155
+    },
+    {
+      "text": "SPIN FATAYAR 6.0",
+      "conf": 0.32666666666666666
+    },
+    {
+      "text": "1 WATE PIZZA 5.0",
+      "conf": 0.6000000000000001
+    },
+    {
+      "text": "3 HINA WATER 10.0",
+      "conf": 0.43500000000000005
+    },
+    {
+      "text": "Sib Total ‘ean.",
+      "conf": 0.43333333333333335
+    },
+    {
+      "text": "Discount 75,0)",
+      "conf": 0.515
+    },
+    {
+      "text": "Say Cugs #1 3.0",
+      "conf": 0.20500000000000002
+    },
+    {
+      "text": "OST #25: © 28",
+      "conf": 0.435
+    },
+    {
+      "text": "SI 82.5 2B",
+      "conf": 0.45
+    },
+    {
+      "text": "ST NO; S6AMCFSIITEIEY",
+      "conf": 0.37333333333333335
+    },
+    {
+      "text": "Thousand Four hundred Seas",
+      "conf": 0.46749999999999997
+    },
+    {
+      "text": "agers; Three",
+      "conf": 0.39
+    },
+    {
+      "text": "ty ore",
+      "conf": 0.675
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "4 Uo Futon vEPEIN YN h",
+      "bill_no": null,
+      "date": null,
+      "gstin": null,
+      "total": 88.0
+    },
+    "items": [
+      {
+        "name": "ve} een. SOIL OFS 8K 5. 1 QOLATE Ale",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 88.0
+      },
+      {
+        "name": "KAA MUTINY",
+        "qty": 3.0,
+        "rate": null,
+        "amount": 15.0
+      },
+      {
+        "name": "RHERIIA PLZZA",
+        "qty": null,
+        "rate": null,
+        "amount": 0.0
+      },
+      {
+        "name": "NEVER COOMETIES —.0D SPIN FATAYAR",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 6.0
+      },
+      {
+        "name": "WATE PIZZA",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 5.0
+      },
+      {
+        "name": "HINA WATER",
+        "qty": 3.0,
+        "rate": null,
+        "amount": 10.0
+      },
+      {
+        "name": "Say Cugs #",
+        "qty": 1.0,
+        "rate": null,
+        "amount": 3.0
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": 0.0,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 88.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

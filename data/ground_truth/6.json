@@ -1,0 +1,52 @@
+{
+  "text": "SUKHDEV VAISHNO DHABA\nG.T. ROAD, MURTHAL, SONIPAT, HARYANA\nGSTIN: 06ABIFS3901K1Z3\nBill No.: 140 Date: 01/07/2017 00:36:22\nTable No.: 10\nItem Qty Price Value\nPRANTHA (SEASONAL) 3.00 60.00 180.00\nALOO PYAAZ PRANTHA 1.00 55.00 55.00\nALU PRANTHA 1.00 55.00 55.00\nDAL MAKHNI 1.00 150.00 150.00\nSWEET LASSI 2.00 60.00 120.00\nKINLEY WATER 1.00 22.10 22.10\nPLAIN ROTI 1.00 18.00 18.00\nKULLAD CHAI 1.00 35.00 35.00\nSUB TOTAL 635.10\nAdd S GST(9.000%) on 635.10 57.16\nAdd C GST(9.000%) on 635.10 57.16\nAmount Incl of All Taxes 749.00",
+  "fields": {
+    "restaurant_name": "SUKHDEV VAISHNO DHABA",
+    "bill_no": "140",
+    "date": "01/07/2017",
+    "gstin": "06ABIFS3901K1Z3",
+    "total": 749.0
+  },
+  "items": [
+    {
+      "name": "PRANTHA (SEASONAL",
+      "qty": 3,
+      "amount": 180.0
+    },
+    {
+      "name": "ALOO PYAAZ PRANTHA",
+      "qty": 1,
+      "amount": 55.0
+    },
+    {
+      "name": "ALU PRANTHA",
+      "qty": 1,
+      "amount": 55.0
+    },
+    {
+      "name": "DAL MAKHNI",
+      "qty": 1,
+      "amount": 150.0
+    },
+    {
+      "name": "SWEET LASSI",
+      "qty": 2,
+      "amount": 120.0
+    },
+    {
+      "name": "KINLEY WATER",
+      "qty": 1,
+      "amount": 22.1
+    },
+    {
+      "name": "PLAIN ROTI",
+      "qty": 1,
+      "amount": 18.0
+    },
+    {
+      "name": "KULLAD CHAI",
+      "qty": 1,
+      "amount": 35.0
+    }
+  ]
+}

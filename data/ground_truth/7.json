@@ -1,0 +1,32 @@
+{
+  "text": "SHIVSAGAR\nVeg Restaurant\nTAX INVOICE\nDate: 01/07/17 Bill No.: 53\nT.No.: 6 W.No.: 18\nParticulars Qty Rate Amount\nMISAL PAV 2 85 170\nBATATA WADA 1 70 70\nMEDU WADA 1 80 80\nFILTER COFFEE 1 35 35\nSub Total: 355.00\nS.G.S.T @9%: 31.95\nC.G.S.T @9%: 31.95\nFood Total: 418.9\nTotal: 419\nGST-27AASCS2460H1Z0",
+  "fields": {
+    "restaurant_name": "SHIVSAGAR",
+    "bill_no": "53",
+    "date": "01/07/17",
+    "gstin": "27AASCS2460H1Z0",
+    "total": 419.0
+  },
+  "items": [
+    {
+      "name": "MISAL PAV",
+      "qty": 2,
+      "amount": 170.0
+    },
+    {
+      "name": "BATATA WADA",
+      "qty": 1,
+      "amount": 70.0
+    },
+    {
+      "name": "MEDU WADA",
+      "qty": 1,
+      "amount": 80.0
+    },
+    {
+      "name": "FILTER COFFEE",
+      "qty": 1,
+      "amount": 35.0
+    }
+  ]
+}

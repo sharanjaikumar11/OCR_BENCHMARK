@@ -1,0 +1,187 @@
+{
+  "image": "4.png",
+  "model": "easyocr",
+  "seconds": 5.623,
+  "error": null,
+  "lines": [
+    {
+      "text": "Jy fidt",
+      "conf": 0.006855328704740676
+    },
+    {
+      "text": "Init Fu[N HEPLIN Lu4vt . Utda",
+      "conf": 0.03886156910782453
+    },
+    {
+      "text": "0101 ADII M ML;",
+      "conf": 0.03490000327320325
+    },
+    {
+      "text": "Mdtrai",
+      "conf": 0.020488883234788945
+    },
+    {
+      "text": "Hb 0.3792",
+      "conf": 0.21688452667655225
+    },
+    {
+      "text": "mte: /40W/19",
+      "conf": 0.0853507100416701
+    },
+    {
+      "text": "0.3 mn MN: diiin",
+      "conf": 0.08726944588992178
+    },
+    {
+      "text": "Covers:",
+      "conf": 0.08513448270668836
+    },
+    {
+      "text": "Uxta billuu",
+      "conf": 0.1286396894905309
+    },
+    {
+      "text": "Dly . Ile Dectiptic Hqi",
+      "conf": 0.14606330845867377
+    },
+    {
+      "text": "M II0 &laMe",
+      "conf": 0.029009574373602368
+    },
+    {
+      "text": "MALL  OLS KBr8 3.0",
+      "conf": 0.19786917044128313
+    },
+    {
+      "text": "(JumAII fut 9 265,.m",
+      "conf": 0.18412588583547104
+    },
+    {
+      "text": "Jowudi kawd G,m",
+      "conf": 0.06427260803526505
+    },
+    {
+      "text": "Fala WIim F 156 @",
+      "conf": 0.05123545782353242
+    },
+    {
+      "text": "Nbtria PItA 4W",
+      "conf": 0.17923310877851154
+    },
+    {
+      "text": "HM CTTIIS 1 W",
+      "conf": 0.2517877467407064
+    },
+    {
+      "text": "SpINUX FAlAUAR I.W",
+      "conf": 0.08229763625834836
+    },
+    {
+      "text": "WMIE PIZA 565.m",
+      "conf": 0.16151853309047512
+    },
+    {
+      "text": "HiMIXMie ISI W",
+      "conf": 0.11581058469399741
+    },
+    {
+      "text": "Sn Total SaLm",
+      "conf": 0.17671959128330686
+    },
+    {
+      "text": "Disctut 7455,0",
+      "conf": 0.5648859579948886
+    },
+    {
+      "text": "Serv @itys u0.9",
+      "conf": 0.37877784723713515
+    },
+    {
+      "text": "DSI  0 2.5 2,5",
+      "conf": 0.15669347333319217
+    },
+    {
+      "text": "SSI 2.5 E5",
+      "conf": 0.4225816054909773
+    },
+    {
+      "text": "Bi ) Amount;3471.00",
+      "conf": 0.41272537068018406
+    },
+    {
+      "text": "GSI M: TNo9iitizy",
+      "conf": 0.4344409722831971
+    },
+    {
+      "text": "Raaes; Ihree Itousiu Fox luetel St(",
+      "conf": 0.07928158563513665
+    },
+    {
+      "text": "ty Qe",
+      "conf": 0.3536097955064785
+    },
+    {
+      "text": "Muiei Flart til +j",
+      "conf": 0.034186774501831
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "Jy fidt",
+      "bill_no": null,
+      "date": null,
+      "gstin": null,
+      "total": 7455.0
+    },
+    "items": [
+      {
+        "name": "Init Fu[N HEPLIN Lu4vt . Utda",
+        "qty": null,
+        "rate": 101.0,
+        "amount": 0.0
+      },
+      {
+        "name": "Uxta billuu Dly . Ile Dectiptic Hqi M II0 &laMe MALL  OLS KBr8",
+        "qty": null,
+        "rate": null,
+        "amount": 3.0
+      },
+      {
+        "name": "Disctut",
+        "qty": null,
+        "rate": 7455.0,
+        "amount": 0.0
+      },
+      {
+        "name": "DSI  0",
+        "qty": 2.0,
+        "rate": 2.5,
+        "amount": 5.0
+      },
+      {
+        "name": "SSI",
+        "qty": null,
+        "rate": null,
+        "amount": 2.5
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": null,
+      "igst": null,
+      "round_off": null,
+      "tax_total": null,
+      "total": 7455.0,
+      "total_includes_tax": null,
+      "total_excluding_tax": null
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

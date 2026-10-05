@@ -1,0 +1,17 @@
+{
+  "text": "SRI KRISHNA\nVeg Restaurant\nTAX INVOICE\nDate: 01/07/17 Bill No.: 3/T/3\nPBoy: COUNTER\nParticulars Qty Rate Amount\nMEDU WADA 1 65 65\nSub Total: 65.00\nDis: @10% 6.00\nNet Total: 59.00\nCGST @9%: 5.31\nSGST @9%: 5.31\nGrand Total: 70\nGST NO 27AADFH5037M1Z6",
+  "fields": {
+    "restaurant_name": "SRI KRISHNA",
+    "bill_no": "3/T/3",
+    "date": "01/07/17",
+    "gstin": "27AADFH5037M1Z6",
+    "total": 70.0
+  },
+  "items": [
+    {
+      "name": "MEDU WADA",
+      "qty": 1,
+      "amount": 65.0
+    }
+  ]
+}

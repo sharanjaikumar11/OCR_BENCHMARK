@@ -1,0 +1,153 @@
+{
+  "image": "8.png",
+  "model": "paddleocr",
+  "seconds": 52.612,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL SRI JANAKIRAM",
+      "conf": 0.9771819114685059
+    },
+    {
+      "text": "49,TAMILSANGAM ROAD,",
+      "conf": 0.9811693429946899
+    },
+    {
+      "text": "MADURAI-1-PH0452-2342744",
+      "conf": 0.9997351765632629
+    },
+    {
+      "text": "GST33AAOFH3134J1ZE",
+      "conf": 0.9749019145965576
+    },
+    {
+      "text": "BILL NO: C9 29/08/23 01:26 PM",
+      "conf": 0.9751281142234802
+    },
+    {
+      "text": "WaiterTHANGAPANDI HALL 2",
+      "conf": 0.9944080710411072
+    },
+    {
+      "text": "Table: 12A Person: 4",
+      "conf": 0.9504538774490356
+    },
+    {
+      "text": "KOTNos:46,66",
+      "conf": 0.9991881847381592
+    },
+    {
+      "text": "PARTICULARS RATE QTY AMOUNT",
+      "conf": 0.9999509006738663
+    },
+    {
+      "text": "MEALS 120.00 2 240.00",
+      "conf": 0.9999917298555374
+    },
+    {
+      "text": "PLAIN BRIYANI 180.00 1 180.00",
+      "conf": 0.9934875965118408
+    },
+    {
+      "text": "MUTTANCHUKKA 180.00 2 360.00",
+      "conf": 0.9983342438936234
+    },
+    {
+      "text": "CHICKEN65 90.00 1 90.00",
+      "conf": 0.9997836649417877
+    },
+    {
+      "text": "MUTTEN COLA 50.00 3 150.00",
+      "conf": 0.9986328929662704
+    },
+    {
+      "text": "CASH Sub Total : 1,020.00",
+      "conf": 0.9959452748298645
+    },
+    {
+      "text": "Round Off : -0.01",
+      "conf": 0.9871625304222107
+    },
+    {
+      "text": "Qty: 9 NETT Rs: 1,020.00",
+      "conf": 0.9652775327364603
+    },
+    {
+      "text": "Tax Amt CGST % CGST Amt SGST % SGST Amt",
+      "conf": 0.9923752546310425
+    },
+    {
+      "text": "971.43 2.5 24.29 2.5 24.29",
+      "conf": 0.999888288974762
+    },
+    {
+      "text": "THANK YOU......VISIT AGAIN",
+      "conf": 0.9533498287200928
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL SRI JANAKIRAM",
+      "bill_no": "C9",
+      "date": "2023-08-29",
+      "gstin": "33AAOFH3134J1ZE",
+      "total": 1020.0
+    },
+    "items": [
+      {
+        "name": "WaiterTHANGAPANDI HALL",
+        "qty": null,
+        "rate": null,
+        "amount": 2.0
+      },
+      {
+        "name": "MEALS",
+        "qty": 2.0,
+        "rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "name": "PLAIN BRIYANI",
+        "qty": 1.0,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "MUTTANCHUKKA",
+        "qty": 2.0,
+        "rate": 180.0,
+        "amount": 360.0
+      },
+      {
+        "name": "CHICKEN65",
+        "qty": 1.0,
+        "rate": 90.0,
+        "amount": 90.0
+      },
+      {
+        "name": "MUTTEN COLA",
+        "qty": 3.0,
+        "rate": 50.0,
+        "amount": 150.0
+      }
+    ],
+    "financials": {
+      "subtotal": 1020.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 24.29,
+      "sgst": 24.29,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 48.58,
+      "total": 1020.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 971.42
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

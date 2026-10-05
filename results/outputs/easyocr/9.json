@@ -1,0 +1,147 @@
+{
+  "image": "9.png",
+  "model": "easyocr",
+  "seconds": 3.715,
+  "error": null,
+  "lines": [
+    {
+      "text": "BBhagini",
+      "conf": 0.6224048892777598
+    },
+    {
+      "text": "Sriganda Palace",
+      "conf": 0.9999589613599872
+    },
+    {
+      "text": "Service Rd, T K Reddy Layout; Annaiah Reddy Layout;",
+      "conf": 0.6880037220085763
+    },
+    {
+      "text": "Banaswadi, Bengaluru; Karnataka 560043",
+      "conf": 0.9226857837181685
+    },
+    {
+      "text": "GST No 29ADDPRB1ZSK1ZZ",
+      "conf": 0.6120860399276533
+    },
+    {
+      "text": "RECEIPT",
+      "conf": 0.9999126334845844
+    },
+    {
+      "text": "Name: Siva Shankar Invoice Na: 7767",
+      "conf": 0.7997787981848058
+    },
+    {
+      "text": "Table; #37 Date; 16 May 2024",
+      "conf": 0.962295829773739
+    },
+    {
+      "text": "Item Price Qty Total",
+      "conf": 0.9964208764251129
+    },
+    {
+      "text": "Mutton biriyani {400 {1600",
+      "conf": 0.8084326093213517
+    },
+    {
+      "text": "Tandoori Roti {30 {150",
+      "conf": 0.8038671635352674
+    },
+    {
+      "text": "Chilly chicken {250 {500",
+      "conf": 0.6899785912810783
+    },
+    {
+      "text": "Chicken pepper {250 3750",
+      "conf": 0.8033473513472654
+    },
+    {
+      "text": "sub-Total: *3000",
+      "conf": 0.915194514098959
+    },
+    {
+      "text": "CGST: 2.5% 3 75",
+      "conf": 0.6423478213218596
+    },
+    {
+      "text": "SGST: 2.59/ { 75",
+      "conf": 0.6992380878594414
+    },
+    {
+      "text": "Mode: Cash Total: {",
+      "conf": 0.8252398640339107
+    },
+    {
+      "text": "3150",
+      "conf": 0.9999318718910217
+    },
+    {
+      "text": "#*SAVE PAPER SAVE NATURE !",
+      "conf": 0.7801908615394554
+    },
+    {
+      "text": "Time: 21.18",
+      "conf": 0.6472887658408245
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "BBhagini",
+      "bill_no": null,
+      "date": "2024-05-16",
+      "gstin": "29ADDPR8125K1ZZ",
+      "total": 3150.0
+    },
+    "items": [
+      {
+        "name": "BBhagini Sriganda Palace Service Rd, T K Reddy Layout; Annaiah Reddy Layout; Banaswadi, Bengaluru; Karnataka",
+        "qty": null,
+        "rate": null,
+        "amount": 560043.0
+      },
+      {
+        "name": "Mutton biriyani {",
+        "qty": null,
+        "rate": 400.0,
+        "amount": 1600.0
+      },
+      {
+        "name": "Tandoori Roti {",
+        "qty": 30.0,
+        "rate": null,
+        "amount": 150.0
+      },
+      {
+        "name": "Chilly chicken {",
+        "qty": null,
+        "rate": 250.0,
+        "amount": 500.0
+      },
+      {
+        "name": "Chicken pepper {",
+        "qty": null,
+        "rate": 250.0,
+        "amount": 3750.0
+      }
+    ],
+    "financials": {
+      "subtotal": 3000.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 75.0,
+      "sgst": 75.0,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 150.0,
+      "total": 3150.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 3000.0
+    },
+    "checks": {
+      "gstin_checksum_ok": false
+    }
+  }
+}

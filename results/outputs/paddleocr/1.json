@@ -1,0 +1,109 @@
+{
+  "image": "1.png",
+  "model": "paddleocr",
+  "seconds": 31.729,
+  "error": null,
+  "lines": [
+    {
+      "text": "RESTAURANT",
+      "conf": 0.9999796748161316
+    },
+    {
+      "text": "FOOD BILL",
+      "conf": 0.9998734593391418
+    },
+    {
+      "text": "Invoice #: 1304",
+      "conf": 0.992110550403595
+    },
+    {
+      "text": "Date 24/04/2024",
+      "conf": 0.9989950060844421
+    },
+    {
+      "text": "DESCRIPTION QTY RATE AMOUNT",
+      "conf": 0.9999679177999496
+    },
+    {
+      "text": "Paneer Butter Masala 1 ₹180.00 ₹180.00",
+      "conf": 0.967452347278595
+    },
+    {
+      "text": "Veg Biryani 1 ₹150.00 ₹150.00",
+      "conf": 0.9682256728410721
+    },
+    {
+      "text": "Tandoori Roti 3 ₹20.00 ₹60.00",
+      "conf": 0.9535275250673294
+    },
+    {
+      "text": "Gulab Jamun 2 ₹100.00 ₹100.00",
+      "conf": 0.9634919464588165
+    },
+    {
+      "text": "CGST @ 2.5% ₹12.25",
+      "conf": 0.9414370357990265
+    },
+    {
+      "text": "SGST @ 2.5% ₹12.25",
+      "conf": 0.9652063548564911
+    },
+    {
+      "text": "TOTAL ₹514.50",
+      "conf": 0.9589992165565491
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "RESTAURANT",
+      "bill_no": "1304",
+      "date": "2024-04-24",
+      "gstin": null,
+      "total": 514.5
+    },
+    "items": [
+      {
+        "name": "Paneer Butter Masala",
+        "qty": 1.0,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "Veg Biryani",
+        "qty": 1.0,
+        "rate": 150.0,
+        "amount": 150.0
+      },
+      {
+        "name": "Tandoori Roti",
+        "qty": 3.0,
+        "rate": 20.0,
+        "amount": 60.0
+      },
+      {
+        "name": "Gulab Jamun",
+        "qty": 2.0,
+        "rate": 100.0,
+        "amount": 100.0
+      }
+    ],
+    "financials": {
+      "subtotal": null,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 12.25,
+      "sgst": 12.25,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 24.5,
+      "total": 514.5,
+      "total_includes_tax": true,
+      "total_excluding_tax": 490.0
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

@@ -1,0 +1,589 @@
+{
+  "best_model": "paddleocr",
+  "bills": {
+    "1.png": {
+      "fields": {
+        "restaurant_name": "RESTAURANT",
+        "bill_no": "1304",
+        "date": "2024-04-24",
+        "gstin": null,
+        "total": 514.5
+      },
+      "items": [
+        {
+          "name": "Paneer Butter Masala",
+          "qty": 1.0,
+          "rate": 180.0,
+          "amount": 180.0
+        },
+        {
+          "name": "Veg Biryani",
+          "qty": 1.0,
+          "rate": 150.0,
+          "amount": 150.0
+        },
+        {
+          "name": "Tandoori Roti",
+          "qty": 3.0,
+          "rate": 20.0,
+          "amount": 60.0
+        },
+        {
+          "name": "Gulab Jamun",
+          "qty": 2.0,
+          "rate": 100.0,
+          "amount": 100.0
+        }
+      ],
+      "financials": {
+        "subtotal": null,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 12.25,
+        "sgst": 12.25,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 24.5,
+        "total": 514.5,
+        "total_includes_tax": true,
+        "total_excluding_tax": 490.0
+      },
+      "checks": {
+        "gstin_checksum_ok": null
+      }
+    },
+    "10.png": {
+      "fields": {
+        "restaurant_name": "AN/APPAR CHETTINAD A/C RESTAURANT",
+        "bill_no": "AC12606",
+        "date": "2017-01-22",
+        "gstin": null,
+        "total": 838.0
+      },
+      "items": [
+        {
+          "name": "CHICKEN BIRIYANI",
+          "qty": 1.0,
+          "rate": 184.0,
+          "amount": 184.0
+        },
+        {
+          "name": "ANJAPPAR REGULAR",
+          "qty": 1.0,
+          "rate": 131.0,
+          "amount": 131.0
+        },
+        {
+          "name": "ANJAPPAR REGULAR",
+          "qty": 1.0,
+          "rate": 137.0,
+          "amount": 137.0
+        },
+        {
+          "name": "MUTTON SUKKA VAR",
+          "qty": 1.0,
+          "rate": 182.0,
+          "amount": 182.0
+        },
+        {
+          "name": "GOBI 65",
+          "qty": 1.0,
+          "rate": 142.0,
+          "amount": 142.0
+        }
+      ],
+      "financials": {
+        "subtotal": 776.0,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": 46.56,
+        "vat": 15.52,
+        "cgst": null,
+        "sgst": null,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 62.08,
+        "total": 838.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 775.92
+      },
+      "checks": {
+        "gstin_checksum_ok": null
+      }
+    },
+    "2.png": {
+      "fields": {
+        "restaurant_name": "SRI KRISHNA",
+        "bill_no": "3/3",
+        "date": "2017-07-01",
+        "gstin": "27AADFH5037M1Z6",
+        "total": 70.0
+      },
+      "items": [
+        {
+          "name": "Veg Restaurant New Muncipal Bldg Joban-Putra Compound Nana Chowk,Mumbai",
+          "qty": null,
+          "rate": null,
+          "amount": 400007.0
+        },
+        {
+          "name": "MEDU WADA",
+          "qty": 1.0,
+          "rate": 65.0,
+          "amount": 65.0
+        }
+      ],
+      "financials": {
+        "subtotal": 65.0,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 5.31,
+        "sgst": 5.31,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 10.62,
+        "total": 70.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 59.38
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    },
+    "3.png": {
+      "fields": {
+        "restaurant_name": "HOTEL CITY LITE",
+        "bill_no": "7723",
+        "date": "2023-07-12",
+        "gstin": null,
+        "total": 346.0
+      },
+      "items": [
+        {
+          "name": "Panner masala",
+          "qty": 1.0,
+          "rate": 180.0,
+          "amount": 180.0
+        },
+        {
+          "name": "Butter Naan 450",
+          "qty": 3.0,
+          "rate": null,
+          "amount": 150.0
+        }
+      ],
+      "financials": {
+        "subtotal": 329.5,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 8.25,
+        "sgst": 8.25,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 16.5,
+        "total": 346.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 329.5
+      },
+      "checks": {
+        "gstin_checksum_ok": null
+      }
+    },
+    "4.png": {
+      "fields": {
+        "restaurant_name": "F JEST KOTCHEN",
+        "bill_no": "3792",
+        "date": "2019-02-24",
+        "gstin": "36AAACF9117C1ZY",
+        "total": 3471.0
+      },
+      "items": [
+        {
+          "name": "AMARETIO BROMNTE",
+          "qty": 4.0,
+          "rate": null,
+          "amount": 1100.0
+        },
+        {
+          "name": "BROCCOLI CHES KABAB",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 395.0
+        },
+        {
+          "name": "CHOCOLATE FUDGE SI",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 275.0
+        },
+        {
+          "name": "JOOJEH KABAB",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 450.0
+        },
+        {
+          "name": "KERALA MUTTON FRY",
+          "qty": 3.0,
+          "rate": null,
+          "amount": 1575.0
+        },
+        {
+          "name": "MARGHERITA PIZZA",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 550.0
+        },
+        {
+          "name": "MUSHRM CROQUETTES",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 395.0
+        },
+        {
+          "name": "SPINACH FATAYAR",
+          "qty": null,
+          "rate": null,
+          "amount": 395.0
+        },
+        {
+          "name": "WHITE PIZZA",
+          "qty": null,
+          "rate": null,
+          "amount": 575.0
+        },
+        {
+          "name": "MINERAL WATER",
+          "qty": 3.0,
+          "rate": null,
+          "amount": 150.0
+        }
+      ],
+      "financials": {
+        "subtotal": 5860.0,
+        "discount": 2855.0,
+        "service_charge": 300.5,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 82.63,
+        "sgst": 82.63,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 165.26,
+        "total": 3471.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 3305.74
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    },
+    "5.png": {
+      "fields": {
+        "restaurant_name": "The Bikers Cafe",
+        "bill_no": "T3--1402",
+        "date": "2018-05-10",
+        "gstin": "06AAECT3668A1ZJ",
+        "total": 2653.0
+      },
+      "items": [
+        {
+          "name": "LAIIES NIGH T SANGRIA",
+          "qty": 2.0,
+          "rate": null,
+          "amount": 0.0
+        },
+        {
+          "name": "THAI GRILLE DEISH",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 375.0
+        },
+        {
+          "name": "10C PIPERS (20 ML)",
+          "qty": 5.0,
+          "rate": null,
+          "amount": 1275.0
+        },
+        {
+          "name": "EAGLE RIDER S TENDER LAM B CHOP",
+          "qty": 1.0,
+          "rate": null,
+          "amount": 499.0
+        }
+      ],
+      "financials": {
+        "subtotal": 2149.0,
+        "discount": null,
+        "service_charge": 214.9,
+        "service_tax": null,
+        "vat": 240.97,
+        "cgst": 24.04,
+        "sgst": 24.04,
+        "igst": null,
+        "round_off": 0.05,
+        "tax_total": 289.05,
+        "total": 2653.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 2363.95
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    },
+    "6.png": {
+      "fields": {
+        "restaurant_name": "SUKHDEV VAISHNO DHABA",
+        "bill_no": "140",
+        "date": "2017-07-01",
+        "gstin": "06ABIFS3901K1Z3",
+        "total": 749.0
+      },
+      "items": [
+        {
+          "name": "NTHA(SEASONAL T ALOOPYAAZ",
+          "qty": 1.0,
+          "rate": 55.0,
+          "amount": 55.0
+        },
+        {
+          "name": "PRANTHA ALU PRANTHA",
+          "qty": 1.0,
+          "rate": 55.0,
+          "amount": 55.0
+        },
+        {
+          "name": "DAL MAKHNI",
+          "qty": 1.0,
+          "rate": 150.0,
+          "amount": 150.0
+        },
+        {
+          "name": "SWEET LASSI",
+          "qty": 2.0,
+          "rate": 60.0,
+          "amount": 120.0
+        },
+        {
+          "name": "KINLEY WATER",
+          "qty": 1.0,
+          "rate": 22.1,
+          "amount": 22.1
+        },
+        {
+          "name": "PLAINROTI",
+          "qty": 1.0,
+          "rate": 18.0,
+          "amount": 18.0
+        },
+        {
+          "name": "KULLAD CHAI",
+          "qty": 1.0,
+          "rate": 35.0,
+          "amount": 35.0
+        }
+      ],
+      "financials": {
+        "subtotal": null,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 57.16,
+        "sgst": 57.16,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 114.32,
+        "total": 749.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 634.68
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    },
+    "7.png": {
+      "fields": {
+        "restaurant_name": "SHIVSAGAR",
+        "bill_no": "53",
+        "date": "2017-07-01",
+        "gstin": "27AASCS2460H1Z0",
+        "total": 419.0
+      },
+      "items": [
+        {
+          "name": "MISAL PAV",
+          "qty": 2.0,
+          "rate": 85.0,
+          "amount": 170.0
+        },
+        {
+          "name": "BATATA WADA",
+          "qty": 1.0,
+          "rate": 70.0,
+          "amount": 70.0
+        },
+        {
+          "name": "MEDU WADA",
+          "qty": 1.0,
+          "rate": 80.0,
+          "amount": 80.0
+        },
+        {
+          "name": "FILTER COFFEE",
+          "qty": 1.0,
+          "rate": 35.0,
+          "amount": 35.0
+        }
+      ],
+      "financials": {
+        "subtotal": 355.0,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": null,
+        "sgst": null,
+        "igst": null,
+        "round_off": null,
+        "tax_total": null,
+        "total": 419.0,
+        "total_includes_tax": null,
+        "total_excluding_tax": null
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    },
+    "8.png": {
+      "fields": {
+        "restaurant_name": "HOTEL SRI JANAKIRAM",
+        "bill_no": "C9",
+        "date": "2023-08-29",
+        "gstin": "33AAOFH3134J1ZE",
+        "total": 1020.0
+      },
+      "items": [
+        {
+          "name": "WaiterTHANGAPANDI HALL",
+          "qty": null,
+          "rate": null,
+          "amount": 2.0
+        },
+        {
+          "name": "MEALS",
+          "qty": 2.0,
+          "rate": 120.0,
+          "amount": 240.0
+        },
+        {
+          "name": "PLAIN BRIYANI",
+          "qty": 1.0,
+          "rate": 180.0,
+          "amount": 180.0
+        },
+        {
+          "name": "MUTTANCHUKKA",
+          "qty": 2.0,
+          "rate": 180.0,
+          "amount": 360.0
+        },
+        {
+          "name": "CHICKEN65",
+          "qty": 1.0,
+          "rate": 90.0,
+          "amount": 90.0
+        },
+        {
+          "name": "MUTTEN COLA",
+          "qty": 3.0,
+          "rate": 50.0,
+          "amount": 150.0
+        }
+      ],
+      "financials": {
+        "subtotal": 1020.0,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 24.29,
+        "sgst": 24.29,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 48.58,
+        "total": 1020.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 971.42
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    },
+    "9.png": {
+      "fields": {
+        "restaurant_name": "Bhagini",
+        "bill_no": "7767",
+        "date": "2024-05-16",
+        "gstin": "29ADDPR8125K1Z2",
+        "total": 3150.0
+      },
+      "items": [
+        {
+          "name": "Bhagini Sriganda Palace Service Rd, T K Reddy Layout, Annaiah Reddy Layout, Banaswadi, Bengaluru, Karnataka",
+          "qty": null,
+          "rate": null,
+          "amount": 560043.0
+        },
+        {
+          "name": "Mutton biriyani",
+          "qty": 4.0,
+          "rate": 400.0,
+          "amount": 1600.0
+        },
+        {
+          "name": "Tandoori Roti",
+          "qty": 5.0,
+          "rate": 30.0,
+          "amount": 150.0
+        },
+        {
+          "name": "Chilly chicken",
+          "qty": 2.0,
+          "rate": 250.0,
+          "amount": 500.0
+        },
+        {
+          "name": "Chicken pepper",
+          "qty": 3.0,
+          "rate": 250.0,
+          "amount": 750.0
+        }
+      ],
+      "financials": {
+        "subtotal": 3000.0,
+        "discount": null,
+        "service_charge": null,
+        "service_tax": null,
+        "vat": null,
+        "cgst": 475.0,
+        "sgst": 475.0,
+        "igst": null,
+        "round_off": null,
+        "tax_total": 950.0,
+        "total": 3150.0,
+        "total_includes_tax": true,
+        "total_excluding_tax": 2200.0
+      },
+      "checks": {
+        "gstin_checksum_ok": true
+      }
+    }
+  }
+}

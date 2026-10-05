@@ -1,0 +1,141 @@
+{
+  "image": "2.png",
+  "model": "tesseract",
+  "seconds": 0.255,
+  "error": null,
+  "lines": [
+    {
+      "text": "SRI KRISHNA",
+      "conf": 0.945
+    },
+    {
+      "text": "Veg Restaurant",
+      "conf": 0.935
+    },
+    {
+      "text": "New Muncipal Bldg",
+      "conf": 0.91
+    },
+    {
+      "text": "Joban-Putra Compound",
+      "conf": 0.815
+    },
+    {
+      "text": "Nana Chowk , Mumba i 400007",
+      "conf": 0.745
+    },
+    {
+      "text": "Ph:23867544,23827326",
+      "conf": 0.66
+    },
+    {
+      "text": "Date: 01/07/17 Bill No. : 18",
+      "conf": 0.815
+    },
+    {
+      "text": "PBoy; COUNTER",
+      "conf": 0.87
+    },
+    {
+      "text": "Particulars Qty Rate Amount",
+      "conf": 0.8049999999999999
+    },
+    {
+      "text": "EDU WADA",
+      "conf": 0.465
+    },
+    {
+      "text": "1 6 6",
+      "conf": 0.5033333333333333
+    },
+    {
+      "text": "Sub Total ; 65.00",
+      "conf": 0.76
+    },
+    {
+      "text": "Dis; 610% ; 6.00",
+      "conf": 0.715
+    },
+    {
+      "text": "Net Cast Total: — §9,00",
+      "conf": 0.364
+    },
+    {
+      "text": "eon | 5.31",
+      "conf": 0.59
+    },
+    {
+      "text": "SGST 69% ; $:31",
+      "conf": 0.5275
+    },
+    {
+      "text": "1 Grand Total : F",
+      "conf": 0.47400000000000003
+    },
+    {
+      "text": "SST NO 27AADFH5037M",
+      "conf": 0.7066666666666667
+    },
+    {
+      "text": "£.80,6,",
+      "conf": 0.09
+    },
+    {
+      "text": "Toke bay",
+      "conf": 0.355
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "SRI KRISHNA",
+      "bill_no": "18",
+      "date": "2017-07-01",
+      "gstin": null,
+      "total": 1.0
+    },
+    "items": [
+      {
+        "name": "Veg Restaurant New Muncipal Bldg Joban-Putra Compound Nana Chowk , Mumba i",
+        "qty": null,
+        "rate": null,
+        "amount": 400007.0
+      },
+      {
+        "name": "EDU WADA",
+        "qty": 1.0,
+        "rate": 6.0,
+        "amount": 6.0
+      },
+      {
+        "name": "Dis;",
+        "qty": null,
+        "rate": 610.0,
+        "amount": 6.0
+      },
+      {
+        "name": "eon",
+        "qty": null,
+        "rate": null,
+        "amount": 5.31
+      }
+    ],
+    "financials": {
+      "subtotal": 65.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": null,
+      "sgst": 31.0,
+      "igst": null,
+      "round_off": null,
+      "tax_total": 31.0,
+      "total": 1.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": -30.0
+    },
+    "checks": {
+      "gstin_checksum_ok": null
+    }
+  }
+}

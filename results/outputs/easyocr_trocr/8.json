@@ -1,0 +1,153 @@
+{
+  "image": "8.png",
+  "model": "easyocr_trocr",
+  "seconds": 166.637,
+  "error": null,
+  "lines": [
+    {
+      "text": "HOTEL SRI JANAKIRAM",
+      "conf": null
+    },
+    {
+      "text": "49,TAMILSANGAM ROAD,",
+      "conf": null
+    },
+    {
+      "text": "MADURAI- -PH 0452-2342744",
+      "conf": null
+    },
+    {
+      "text": "GST 33AAOFH3134J1ZE",
+      "conf": null
+    },
+    {
+      "text": "BILL NO: C9 29/08/23 01:26 PM",
+      "conf": null
+    },
+    {
+      "text": "WAITER THANGAPANDI HALL 2",
+      "conf": null
+    },
+    {
+      "text": "TABLE: 12A PERSON: 4",
+      "conf": null
+    },
+    {
+      "text": "KOT NOS : 46,66",
+      "conf": null
+    },
+    {
+      "text": "PARTICULARS RATE QTY AMOUNT",
+      "conf": null
+    },
+    {
+      "text": "MEALS 120.00 240.00",
+      "conf": null
+    },
+    {
+      "text": "PLAIN BRIYANI 180.00 180.00",
+      "conf": null
+    },
+    {
+      "text": "MUTIAN CHUKKA 180.00 360.00",
+      "conf": null
+    },
+    {
+      "text": "CHICKEN 65 90.00 90.00",
+      "conf": null
+    },
+    {
+      "text": "MUTTEN COLA 50.00 150.00",
+      "conf": null
+    },
+    {
+      "text": "CASH SUB TOTAL 1,020.00",
+      "conf": null
+    },
+    {
+      "text": "ROUND OFF 0.01",
+      "conf": null
+    },
+    {
+      "text": "QTY NETTRS: 1,020.00",
+      "conf": null
+    },
+    {
+      "text": "TAX AMT CGST % CGST AMT SGST % SGST AMT",
+      "conf": null
+    },
+    {
+      "text": "971.43 24.2 24.29",
+      "conf": null
+    },
+    {
+      "text": "THANK YOU. VISIT AGAIN",
+      "conf": null
+    }
+  ],
+  "structured": {
+    "fields": {
+      "restaurant_name": "HOTEL SRI JANAKIRAM",
+      "bill_no": "C9",
+      "date": "2023-08-29",
+      "gstin": "33AAOFH3134J1ZE",
+      "total": 1020.0
+    },
+    "items": [
+      {
+        "name": "WAITER THANGAPANDI HALL",
+        "qty": null,
+        "rate": null,
+        "amount": 2.0
+      },
+      {
+        "name": "MEALS",
+        "qty": null,
+        "rate": 120.0,
+        "amount": 240.0
+      },
+      {
+        "name": "PLAIN BRIYANI",
+        "qty": null,
+        "rate": 180.0,
+        "amount": 180.0
+      },
+      {
+        "name": "MUTIAN CHUKKA",
+        "qty": null,
+        "rate": 180.0,
+        "amount": 360.0
+      },
+      {
+        "name": "CHICKEN",
+        "qty": 65.0,
+        "rate": 90.0,
+        "amount": 90.0
+      },
+      {
+        "name": "MUTTEN COLA",
+        "qty": 50.0,
+        "rate": null,
+        "amount": 150.0
+      }
+    ],
+    "financials": {
+      "subtotal": 1020.0,
+      "discount": null,
+      "service_charge": null,
+      "service_tax": null,
+      "vat": null,
+      "cgst": 24.29,
+      "sgst": 24.29,
+      "igst": null,
+      "round_off": 0.01,
+      "tax_total": 48.58,
+      "total": 1020.0,
+      "total_includes_tax": true,
+      "total_excluding_tax": 971.42
+    },
+    "checks": {
+      "gstin_checksum_ok": true
+    }
+  }
+}

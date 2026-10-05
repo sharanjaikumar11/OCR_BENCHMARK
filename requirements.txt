@@ -1,0 +1,8 @@
+pillow
+numpy
+pytesseract
+easyocr
+paddlepaddle
+paddleocr
+torch
+transformers
