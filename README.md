@@ -13,7 +13,7 @@ ocr_benchmark.py          # benchmark, extraction rules, scoring and reports
 compare.py                # inspect one model/bill against its ground truth
 Diagnose.py               # list remaining field and item failures
 bill_pipeline.py          # selected PaddleOCR extraction pipeline
-PROJECT_REPORT.md         # lead-ready project documentation
+PROJECT_REPORT.md         # project documentation and learning notes
 ```
 
 | Name | Detection | Recognition |
